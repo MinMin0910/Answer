@@ -1,21 +1,21 @@
 [{
     "term": "When performing logistic regression on sentiment analysis, you represented each tweet as a vector of ones and zeros. However your model did not work well. Your training cost was reasonable, but your testing cost was just not acceptable. What could be a possible reason? A. The vector representations are sparse and therefore it is much harder for your model to learn anything that could generalize well to the test set. B. You probably need to increase your vocabulary size because it seems like you have very little features. C. Logistic regression does not work for sentiment analysis, and therefore you should be looking at other models. D. Sparse representations require a good amount of training time so you should train your model for longer",
-    "definition": "A"
+    "definition": "A. The vector representations are sparse and therefore it is much harder for your model to learn anything that could generalize well to the test set."
 }, {
     "term": "Which of the following are examples of text preprocessing? A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLs D. Adding new words to make sure all the sentences make sense",
-    "definition": "ABC"
+    "definition": "A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLsBC"
 }, {
     "term": "The sigmoid function is defined as h(x^(i) ,θ) = 1 / (1+e^(−θ^Tx^(i))) . Which of the following is true. A. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to -1. B. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to 0. C. Small positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large positive values of θ^Tx^(i) will make h(x^(i), θ) close to 0. D. Small positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 0 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to -1.",
-    "definition": "B"
+    "definition": "B. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to 0."
 }, {
     "term": "The cost function for logistic regression is defined as J(θ) = −1/m *​ ∑^{i=1}_m [y^(i)logh(x^(i), θ)+(1−y^(i))log(1−h(x^(i), θ))]. Which of the following is true about the cost function above. Mark all the correct ones. A. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches ∞. B. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches 0. C. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches 0. D. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches ∞.",
-    "definition": "AC"
+    "definition": "A. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches ∞. C. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches 0."
 }, {
-    "term": "For what value of θ^Tx in the sigmoid function does h(x^(i), θ)=0.5. Enter answer here",
+    "term": "For what value of θ^Tx in the sigmoid function does h(x^(i), θ)=0.5.",
     "definition": "0"
 }, {
     "term": "Select all that apply. When performing logistic regression for sentiment analysis using the method taught in this week's lecture, you have to: A. Performing data processing. B. Create a dictionary that maps the word and the class that word is found in to the number of times that word is found in the class. C. Create a dictionary that maps the word and the class that word is found in to see if that word shows up in the class. D. For each tweet, you have to create a positive feature with the sum of positive counts of each word in that tweet. You also have to create a negative feature with the sum of negative counts of each word in that tweet.",
-    "definition": "ABD"
+    "definition": "A. Performing data processing. B. Create a dictionary that maps the word and the class that word is found in to the number of times that word is found in the class. D. For each tweet, you have to create a positive feature with the sum of positive counts of each word in that tweet. You also have to create a negative feature with the sum of negative counts of each word in that tweet."
 }, {
     "term": "When training logistic regression, you have to perform the following operations in the desired order. A. Initialize parameters, get gradient, classify/predict, update, get loss, repeat B. Initialize parameters, classify/predict, get gradient, update, get loss, repeat C. Initialize parameters, get gradient, update, classify/predict, get loss, repeat D. Initialize parameters, get gradient, update, get loss, classify/predict, repeat",
     "definition": "B"
