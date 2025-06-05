@@ -1,301 +1,304 @@
-[{
-    "term": "When performing logistic regression on sentiment analysis, you represented each tweet as a vector of ones and zeros. However your model did not work well. Your training cost was reasonable, but your testing cost was just not acceptable. What could be a possible reason? A. The vector representations are sparse and therefore it is much harder for your model to learn anything that could generalize well to the test set. B. You probably need to increase your vocabulary size because it seems like you have very little features. C. Logistic regression does not work for sentiment analysis, and therefore you should be looking at other models. D. Sparse representations require a good amount of training time so you should train your model for longer",
-    "definition": "A. The vector representations are sparse and therefore it is much harder for your model to learn anything that could generalize well to the test set."
-}, {
-    "term": "Which of the following are examples of text preprocessing? A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLs D. Adding new words to make sure all the sentences make sense",
-    "definition": "A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLsBC"
-}, {
-    "term": "The sigmoid function is defined as h(x^(i) ,θ) = 1 / (1+e^(−θ^Tx^(i))) . Which of the following is true. A. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to -1. B. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to 0. C. Small positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large positive values of θ^Tx^(i) will make h(x^(i), θ) close to 0. D. Small positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 0 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to -1.",
-    "definition": "B. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to 0."
-}, {
-    "term": "The cost function for logistic regression is defined as J(θ) = −1/m *​ ∑^{i=1}_m [y^(i)logh(x^(i), θ)+(1−y^(i))log(1−h(x^(i), θ))]. Which of the following is true about the cost function above. Mark all the correct ones. A. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches ∞. B. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches 0. C. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches 0. D. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches ∞.",
-    "definition": "A. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches ∞. C. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches 0."
-}, {
-    "term": "For what value of θ^Tx in the sigmoid function does h(x^(i), θ)=0.5.",
-    "definition": "0"
-}, {
-    "term": "Select all that apply. When performing logistic regression for sentiment analysis using the method taught in this week's lecture, you have to: A. Performing data processing. B. Create a dictionary that maps the word and the class that word is found in to the number of times that word is found in the class. C. Create a dictionary that maps the word and the class that word is found in to see if that word shows up in the class. D. For each tweet, you have to create a positive feature with the sum of positive counts of each word in that tweet. You also have to create a negative feature with the sum of negative counts of each word in that tweet.",
-    "definition": "A. Performing data processing. B. Create a dictionary that maps the word and the class that word is found in to the number of times that word is found in the class. D. For each tweet, you have to create a positive feature with the sum of positive counts of each word in that tweet. You also have to create a negative feature with the sum of negative counts of each word in that tweet."
-}, {
-    "term": "When training logistic regression, you have to perform the following operations in the desired order. A. Initialize parameters, get gradient, classify/predict, update, get loss, repeat B. Initialize parameters, classify/predict, get gradient, update, get loss, repeat C. Initialize parameters, get gradient, update, classify/predict, get loss, repeat D. Initialize parameters, get gradient, update, get loss, classify/predict, repeat",
-    "definition": "B"
-}, {
-    "term": "Assuming we got the classification correct, where y^(i) = 1 for some specific example i. This means that h(x^(i), θ) > 0.5. Which of the following has to hold: A. Our prediction, h(x^(i), θ) for this specific training example is exactly equal to its corresponding label y^(i). B. Our prediction, h(x^(i), θ) for this specific training example is less than 1−y^(i)). C. Our prediction, h(x^(i), θ) for this specific training example is less than (1−h(x^(i), θ)). D. Our prediction, h(x^(i), θ) for this specific training example is greater than (1−h(x^(i), θ)).",
-    "definition": "D"
-}, {
-    "term": "What is the purpose of gradient descent? Select all that apply. A. Gradient descent allows us to learn the parameters θ in logistic regression as to minimize the loss function J. B. Gradient descent allows us to learn the parameters θ in logistic regression as to maximize the loss function J. C. Gradient descent, grad_theta allows us to update the parameters θ by computing θ = θ − α ∗ grad_theta D. Gradient descent, grad_theta allows us to update the parameters θ by computing θ = θ + α ∗ grad_theta",
-    "definition": "AC"
-}, {
-    "term": "What is a good metric that allows you to decide when to stop training/trying to get a good model? Select all that apply. A. When your accuracy is good enough on the test set. B. When your accuracy is good enough on the train set. C. When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much). D. When α, your step size is neither too small nor too large.",
-    "definition": "AC"
-}, {
-    "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons B and C are unhappy. If you were to randomly pick a person from the room, what is the probability that the person is happy. A. 1/2 B. 1/4 C. 3/4 D. 0",
-    "definition": "A"
-}, {
-    "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons B and C are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? A. 1/2 B. 1/4 C. 3/4 D. 1",
-    "definition": "A"
-}, {
-    "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive P( Positive ∣ \"happy\" ) = P( Positive ∩ \"happy\" ) / P( \"happy\" ) P( \"happy\" ∣ Positive ) = P( \"happy\" ∩ Positive ) / P( Positive ) A. P( Positive ∣ happy ) = P( happy ∣ Positive ) × P( Positive ) / P( happy) B. P( Positive ∣ happy ) = P( \"happy\" ∣ Positive ) × P( happy ) / P( Positive ) C. P( Positive ⋂ happy ) = P( happy ∣ Positive ) × P( Positive ) / P( happy) D. P( Positive ⋂ happy ) = P( \"happy\" ∣ Positive ) × P( happy ) / P( Positive )",
-    "definition": "A"
-}, {
-    "term": "Bayes rule is defined as A. P(X∣Y) = P(Y∣X) × P(X) / P(Y) B. P(X∣Y) = P(Y∣X) × P(Y) / P(X) C. P(X∣Y) = P(X∣Y) × P(X) / P(Y) D. P(X∣Y) = P(Y∣X) × P(X) / P(Y∣X)",
-    "definition": "A"
-}, {
-    "term": "Suppose that in your dataset, 25% of the positive tweets contain the word 'happy'. You also know that a total of 13% of the tweets in your dataset contain the word 'happy', and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'. What is the probability that this tweet is positive? Enter answer here",
-    "definition": "0.77"
-}, {
-    "term": "The log likelihood for a certain word w_i is defined as: log( P(w_i ∣ pos) / P(w_i ∣ neg) ). A. Positive numbers imply that the word is positive. B. Positive numbers imply that the word is negative. C. Negative numbers imply that the word is negative. D. Negative numbers imply that the word is positive.",
-    "definition": "AC"
-}, {
-    "term": "The log likelihood mentioned in lecture, which is the log of the ratio between two probabilities is bounded between A. -1 and 1 B. −∞ and ∞ C. 0 and ∞ D. 0 and 1",
-    "definition": "B"
-}, {
-    "term": "When implementing naive Bayes, in which order should the following steps be implemented. A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) B. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) C. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) D. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
-    "definition": "A"
-}, {
-    "term": "To predict using naive bayes, which of the following are required. A. X_val, Y_val, λ, logprior B. X_val, Y_val, logprior C. X_val, λ, logprior D. Y_val, λ, logprior",
-    "definition": "A"
-}, {
-    "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
-    "definition": "E"
-}, {
-    "term": "G​iven a corpus A, encoded as (1, 2, 3) and corpus B encoded as (4, 7, 2), What is the euclidean distance between the two documents? A. 5.91608 B. 3​5 C. 2​.43 D. N​one of the above",
-    "definition": "A"
-}, {
-    "term": "G​iven the previous problem, a user now came up with a corpus C defined as (3, 1, 4) and you want to recommend a document that is similar to it. Would you recommend document A or document B? A. Document A​ B. Document B​",
-    "definition": "A"
-}, {
-    "term": "W​hich of the following is true about euclidean distance? A. W​hen comparing similarity between two corpuses, it does not work well when the documents are of different sizes. B. I​t is the norm of the difference between two vectors. C. I​t is a method that makes use of the angle between two vectors D. I​t is the norm squared of the difference between two vectors.",
-    "definition": "AB"
-}, {
-    "term": "W​hat is the range of a cosine similarity score, namely s, in the case of information retrieval where the vectors are positive? A. -1 ≤ s ≤ 1 B. -∞ ≤ s ≤ ∞ C. 0 ≤ s ≤ 1 D. -1 ≤ s ≤ 0",
-    "definition": "C"
-}, {
-    "term": "T​he cosine similarity score of corpus A = (1, 0, −1) and corpus B = (2, 8, 1) is equal to ? A. 0.08512565307587486 B. 0​ C. 1​.251903 D. -​0.3418283",
-    "definition": "A"
-}, {
-    "term": "W​e will define the following vectors, USA = (5, 6), Washington = (10, 5), Turkey = (3, 1), Ankara = (9, 1), Russian = (5, 5), and Japan = (4, 3). Using only the following vectors, Ankara is the capital of what country? A. J​apan B. R​ussia C. Morocco D. T​urkey",
-    "definition": "D"
-}, {
-    "term": "P​lease select all that apply. PCA is A. u​sed to reduce the dimension of your data. B. v​isualize word vectors C. m​ake predictions D. l​abel data",
-    "definition": "AB"
-}, {
-    "term": "P​lease select all that apply. Which is correct about PCA? A. Y​ou can think of an eigenvector as an uncorrelated feature for your data. B. T​he eigenvalues tell you the amount of information retained by each feature. C. I​f working with features in different scales, you do not have to mean normalize. D. C​omputing the covariance matrix is critical when performing PCA",
-    "definition": "ABD"
-}, {
-    "term": "I​n which order do you perform the following operations when computing PCA? A. m​ean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. B. m​ean normalize, perform SVD, get Σ the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. C. get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, m​ean normalize. D. get Σ the covariance matrix, m​ean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.",
-    "definition": "A"
-}, {
-    "term": "V​ector space models allow us to A. T​o represent words and documents as vectors. B. b​uild useful applications including and not limited to, information extraction, machine translation, and chatbots. C. c​reate representations that capture similar meaning. D. b​uild faster training algorithms",
-    "definition": "ABC"
-}, {
-    "term": "A​ssume that your objective is to minimize the transformation of X as similar to Y as possible, what would you optimize to get R? (XR≈Y) A. M​inimize the distance between XR and Y B. Maximize the distance between XR and Y C. M​inimize the dot product between XR and Y D. Maximize the dot product between XR and Y",
-    "definition": "A"
-}, {
-    "term": "W​hen solving for R, which of the following is true? A. C​reate a forloop, inside the forloop: (initialize R, compute the gradient, update the loss B. C​reate a forloop, inside the forloop: (initialize R, update the loss, compute the gradient. C. Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss) D. Initialize R, compute the gradient, create a forloop, inside the forloop: (update the loss)",
-    "definition": "C"
-}, {
-    "term": "T​he Frobenius norm of A = (1, 3; 4, 5) is Enter answer here",
-    "definition": "7.14"
-}, {
-    "term": "A​ssume X∈R^m×n, R∈R^n×n, Y∈R^m×n which of the following is the gradient of ∥XR−Y∥_F^2? A. 2/m × X^T × (XR-Y) B. 2/m × X × (XR-Y) C. 2/m × (XR-Y) × X D. 2/m × (XR-Y) × X^T",
-    "definition": "A"
-}, {
-    "term": "I​magine that you are visiting a city in the US. If you search for friends that are living in the US, would you be able to determine the 2 closest of ALL your friends around the world? A. Y​es, because I am already in the country and that implies that my closest friends are also going to be in the same country. B. N​o",
-    "definition": "B"
-}, {
-    "term": "W​hat is the purpose of using a function to hash vectors into values? A. T​o speed up the time it takes when comparing similar vectors. B. T​o not have to spend time comparing vectors with other vectors that are completely different. C. T​o make the search for other similar vectors more accurate. D. It helps us create vectors.",
-    "definition": "AB"
-}, {
-    "term": "Given the following vectors, determine the true statements. P: (1, 1) V_1: (1, 1) V_2: (2, 2) V_3: (−1, −1) A. P × V_1^T and P × V_2^T have the same sign. B. P × V_1^T and P × V_2^T are equal in magnitude. C. P × V_1^T and P × V_3^T have the same sign.",
-    "definition": "A"
-}, {
-    "term": "W​e define H to be the number of planes and h_i to be 1 or 0 depending on the sign of the dot product with plane i. Which of the following is the equation used to calculate the hash for several planes. A. ∑_i^H 2^i × h_i B. ∑_i^H 2^i × h_i^i C. ∑_i^H 2i × h_i​ D. ∑_i^H 2^h_i × i",
-    "definition": "A"
-}, {
-    "term": "H​ow can you speed up the look up for similar documents. A. P​CA B. A​pproximate Nearest Neighbors C. K​-Means D. L​ocality sensitive hashing",
-    "definition": "BD"
-}, {
-    "term": "H​ash tables are useful because A. a​llow us to divide vector space to regions. B. s​peed up look up C. c​lassify with higher accuracy D. c​an always be reproduced",
-    "definition": "ABD"
-}, {
-    "term": "The Transition matrix A defined in lecture allows you to: A. Compute the probability of going from a word to another word. B. Compute the probability of going from a part of speech tag to a word. C. Compute the probability of going from a part of speech tag to another part of speech tag. D. Compute the probability of going from a word to a part of speech tag.",
-    "definition": "C"
-}, {
-    "term": "The Emission matrix B defined in lecture allows you to: A. Compute the probability of going from a word to another word. B. Compute the probability of going from a part of speech tag to another part of speech tag. C. Compute the probability of going from a word to a part of speech tag. D. Compute the probability of going from a part of speech tag to a word.",
-    "definition": "D"
-}, {
-    "term": "The column sum of the emission matrix has to be equal to 1. A. False. B. True.",
-    "definition": "A"
-}, {
-    "term": "The row sum of the transition matrix has to be 1. A. True B. False, it has to be the column sum.",
-    "definition": "A"
-}, {
-    "term": "Why is smoothing usually applied? Select all that apply. A. Applying smoothing, for the majority of cases, allows us to decrease the probabilities in the transition and emission matrices and this allows us to have non zero probabilities. B. Applying smoothing is a bad idea and we should not use it. C. Applying smoothing, for the minority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities. D. Applying smoothing, for the majority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities.",
-    "definition": "AC"
-}, {
-    "term": "Given the following D matrix, what would be the sequence of tags for the words on the right? A. t_2, t_3, t_1, t_3, t_1 B. t_3, t_4, t_2, t_2, t_1 C. t_1, t_3, t_1, t_2, t_1 D. t_3, t_4, t_2, t_3, t_1",
-    "definition": "A"
-}, {
-    "term": "Previously, we have been multiplying the raw probabilities, but in reality we take the log of those probabilities. Why might that be the case? A. The log probabilities help us with the inference as they bound the numbers between -1 and 1. B. Because the log probabilities force the numbers to be between 0 and 1 and hence, we want to take a probability. C. We take the log probabilities because probabilities are bounded between 0 and 1 and as a result, the numbers could be too small and will go towards 0. D. The log probabilities should not be used because they introduce noise to our original computed scores.",
-    "definition": "C"
-}, {
-    "term": "Which of the following are useful for applications for parts of speech tagging? A. Named Entity Recognition B. Coreference Resolution C. Sentiment Analysis D. Speech recognition",
-    "definition": "ABD"
-}, {
-    "term": "Corpus: \"In every place of great resort the monster was the fashion. They sang of it in the cafes, ridiculed it in the papers, and represented it on the stage. \" (Jules Verne, Twenty Thousand Leagues under the Sea) In the context of our corpus, what is the probability of word \"papers\" following the phrase \"it in the\". A. P(papers|it in the) = 0 B. P(papers|it in the) =1 C. P(papers|it in the) = 2/3 D. P(papers|it in the) = 1/2",
-    "definition": "D"
-}, {
-    "term": "Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 . P(Mary|likes) =0.2; P(likes|Mary) =0.3; P(cats|likes)=0.1; P(likes|cats)=0.4 Approximate the probability of the following sentence with bigrams: \"Mary likes cats\" A. P(Mary likes cats) =1 B. P(Mary likes cats) = 0 C. P(Mary likes cats) = 0.008 D. P(Mary likes cats) = 0.003",
-    "definition": "D"
-}, {
-    "term": "Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 P(Mary|<s>)=0.2; P(</s>|cats)=0.6 P(likes|Mary) =0.3; P(cats|likes)=0.1 Approximate the probability of the following sentence with bigrams: \"<s> Mary likes cats </s>\" A. P(<s> Mary likes cats </s>) = 1 B. P(<s> Mary likes cats </s>) = 0.0036 C. P(<s> Mary likes cats </s>) = 0 D. P(<s> Mary likes cats </s>) = 0.003",
-    "definition": "B"
-}, {
-    "term": "Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Approximate the log probability of the following sentence with bigrams : \"<s> Mary likes cats </s>\" A. log(P(<s> Mary likes cats </s>)) = 2000 B. log(P(<s> Mary likes cats </s>)) = 113 C. log(P(<s> Mary likes cats </s>)) = -112 D. log(P(<s> Mary likes cats </s>)) = -113",
-    "definition": "D"
-}, {
-    "term": "Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Assuming our test set is W=\"<s> Mary likes cats </s>\", what is the model's perplexity. A. log PP(W) = -113 B. log PP(W) = (-1/5)*(-113) C. log PP(W) = (-1/4)*(-113) D. log PP(W) = (-1/5)*113",
-    "definition": "C"
-}, {
-    "term": "Given the training corpus and minimum word frequency=2, how would the vocabulary for corpus preprocessed with <UNK> look like? \"<s> I am happy I am learning </s> <s> I am happy I can study </s>\" A. V = (I,am,happy,learning,can,study) B. V = (I,am,happy,learning,can,study,<UNK>) C. V = (I,am,happy,I,am) D. V = (I,am,happy)",
-    "definition": "D"
-}, {
-    "term": "Corpus: \"I am happy I am learning\" In the context of our corpus, what is the estimated probability of word \"can\" following the word \"I\" using the bigram model and add-k-smoothing where k=3. A. P(can|I) = 0 B. P(can|I) =1 C. P(can|I) = 3/(2+3*4) D. P(can|I) = 3/(3*4)",
-    "definition": "C"
-}, {
-    "term": "Which of the following are applications of n-gram language models? A. Speech recognitions B. Auto-complete C. Auto-correct D. Augmentative communication E. Sentiment Analysis",
-    "definition": "ABCD"
-}, {
-    "term": "The higher the perplexity score the more our corpus will make sense. A. True B. False",
-    "definition": "B"
-}, {
-    "term": "The perplexity score increases as we increase the number of <UNK> tokens. A. False. B. True.",
-    "definition": "B"
-}, {
-    "term": "Which one of the following word representations is most likely to correspond to a word embedding representation in a general-purpose vocabulary? In other words, which one is most likely to capture meaning and important information about the words? A. car -> 2 caravan -> 3 B. car -> (0.1 1) caravan -> (-0.1 0.9) C. car -> (0 1 0 0) caravan -> (0 0 1 0) D. car -> (1 0.1) caravan -> (-1 -0.9)",
-    "definition": "B"
-}, {
-    "term": "Which one of the following statements is correct? A. To learn word embeddings you only need a vocabulary and an embedding method. B. Learning word embeddings using a machine learning model is unsupervised learning as the input data set is not labelled. C. The objective of a machine learning model that learns word embeddings is to predict word embeddings. D. The meaning of the words, as carried by the word embeddings, depends on the embedding approach.",
-    "definition": "D"
-}, {
-    "term": "Which one of the following statements is false? A. word2vec-based models cannot create word embeddings for words they did not see in the corpus they were trained on. B. ELMo may have different word embeddings for the word \"stable\" depending on the context. C. You need to train a deep neural network to learn word embeddings. D. You can use a pre-trained BERT model to learn word embeddings on a previously unseen corpus.",
-    "definition": "C"
-}, {
-    "term": "Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context half-size of 3, what are the context words of the center word \"inaction\"? A. \"being inaction human\" B. \"being or through allow a human\" C. \"being or through inaction allow a human\" D. \"through inaction allow\"",
-    "definition": "B"
-}, {
-    "term": "Which one of the following statements is false? A. Given the corpus \"I think therefore I am\", the word \"think\" could be represented by the one-hot vector (1 0 0 0). B. Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context size of 3, the context words of the center word \"inaction\" are: \"a\", \"allow\", \"being\", \"human\", \"or\", and \"through\" C. The continuous bag-of-words model learns to predict context words given a center word. D. Given the corpus \"I think therefore I am\", the word \"you\" cannot be represented.",
-    "definition": "C"
-}, {
-    "term": "You are designing a neural network for a CBOW model that will be trained on a corpus with a vocabulary of 8000 words. If you want it to learn 400-dimensional word embedding vectors, what should be the sizes of the input, hidden, and output layers? A. 8000 (input layer), 8000 (hidden layer), 400 (output layer) B. 400 (input layer), 400 (hidden layer), 8000 (output layer) C. 8000 (input layer), 400 (hidden layer), 8000 (output layer) D. 8000 (input layer), 400 (hidden layer), 400 (output layer)",
-    "definition": "C"
-}, {
-    "term": "If you are designing a neural network for a CBOW model that will be trained on a corpus of 8000 words, and if you want it to learn 400-dimensional word embedding vectors, what should be the size of W1, the weighting matrix between the input layer and hidden layer, if it is fed training examples in batches of 16 examples represented by a 8000 row by 16 column matrix? Hint: if X is the input matrix, H the matrix for the hidden layer, and B1 the bias matrix, then H = ReLU(W1X + B1). A. 400 rows by 8000 columns B. 16 rows by 8000 columns C. 400 rows by 16 columns D. 8000 rows by 16 columns",
-    "definition": "A"
-}, {
-    "term": "Given the input vector x below, a trained continuous bag-of-words model outputs the vector ŷ below. What is the word predicted by the model? A. Think B. am C. Therefore D. I",
-    "definition": "C"
-}, {
-    "term": "The following weighting matrix W_1 has been learned after training a CBOW model. You are also given word-to-row mapping for the input column vectors. ​What is the word embedding vector for \"ring\"? A. [-1.9; -1.18; 2.61; -1.7; -4.36; -4.54] B. [-2.39; -1.3; -1.7; 1.75] C. [4.56; -2.94; 2.61; -1.16] D. [0; 0; 1; 0; 0; 0]",
-    "definition": "C"
-}, {
-    "term": "Select all that are correct. A. You can perform intrinsic evaluation by using a clustering algorithm to group similar word embedding vectors, and determining if the clusters capture related words. B. Extrinsic evaluation evaluates actual usefulness of embeddings, is time consuming and is more difficult to trouble shoot. C. To evaluate word embeddings with intrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings. D. To evaluate word embeddings with extrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings.",
-    "definition": "ABD"
-}, {
-    "term": "How many layers does the following neural network have? A. 1 B. 2 C. 3 D. 4",
-    "definition": "C"
-}, {
-    "term": "Let us analyze the following class: What would be the output above? A. 12 B. Null C. 2 D. 14",
-    "definition": "D"
-}, {
-    "term": "The ReLU layer, is an activation layer that typically follows a dense fully connected layer, and transforms all values between 0 and 1 before sending them on to the next layer. A. True B. False",
-    "definition": "B"
-}, {
-    "term": "The ReLU layer is an activation layer that typically follows a dense fully connected layer, and transforms any negative values to 0 before sending them on to the next layer. A. False B. True",
-    "definition": "B"
-}, {
-    "term": "For the embedding layer in your model, you'd have to learn a matrix of weights of what size? A. Equal to your vocabulary times the dimension of the number of layers B. Equal to your vocabulary times the dimension of the number of classes C. Equal to the dimension of the embedding times the first dimension of the matrix in the first layer. D. Equal to your vocabulary times the dimension of the embedding",
-    "definition": "D"
-}, {
-    "term": "What would be the probability of a five word sequence using a penta-gram? A. P(w5∣w4,w3,w2,w1) = count(w5,w4,w3,w2,w1) / count(w4,w3,w2,w1) B. P(w5,w4,w3,w2,w1) = P(w1)×P(w2∣w1)×P(w3∣w1,w2)×P(w4∣w1,w2,w3)×P(w5∣w1,w2,w3,w4) C. P(w5,w4,w3,w2,w1) = P(w1)×P(w2)×P(w3)×P(w4)×P(w5) D. P(w5,w4,w3,w2,w1) = P(w5∣w4,w3,w2,w1)",
-    "definition": "B"
-}, {
-    "term": "The number of parameters in an RNN is the same regardless of the input's length. A. False B. True.",
-    "definition": "B"
-}, {
-    "term": "Select all the examples that correspond to a \"many to one\" architecture. A. An RNN which inputs a sentiment and generates a sentence. B. An RNN which inputs a sentence and determines the sentiment. C. An RNN which inputs a topic and generates a conversation about that topic. D. An RNN which inputs a conversation and determines the topic.",
-    "definition": "BD"
-}, {
-    "term": "What should be the size of matrix Wh, if h<t> had size 4x1 and x<t> 10x1? h<t> = g(Wh[h<t−1>,x<t>]+bh) A. 4x14 B. 14x4 C. 4x4 D. 14x14",
-    "definition": "A"
-}, {
-    "term": "In the next equation, why is there a division by the number of time steps but not one for the number of classification categories? J = −1/T ∑^T_t=1 ∑^K_j=1 yj<t> log ŷj<t> A. Because there is just one value in every vector y<t> different from zero. B. Because the equation is wrong. C. Because this equation is given for a single example. D. Because for most classification tasks there are only two categories.",
-    "definition": "A"
-}, {
-    "term": "What problem, related to vanilla RNNs, do GRUs tackle? A. Loss of relevant information for long sequences of words. B. Overfitting C. High computational time for training and prediction. D. Restricted flow of information from the past to the present.",
-    "definition": "A"
-}, {
-    "term": "Bidirectional RNNs are acyclic graphs, which means that the computations in one direction are independent from the ones in the other direction. A. True B. False",
-    "definition": "A"
-}, {
-    "term": "Compared to Traditional Language models which of the following problems does an RNN help us with? A. Helps us solve memory issues. B. Helps us solve RAM issues. C. They require almost no knowledge to use when compared to the traditional n-gram model. D. They are much simpler to understand.",
-    "definition": "AB"
-}, {
-    "term": "What type of RNN structure would you use when implementing machine translation? A. Many to one B. One to many C. One to one D. Many to Many",
-    "definition": "D"
-}, {
-    "term": "In the scan() function the variable cur_value corresponds to the hidden state in an RNN. A. True B. False",
-    "definition": "A"
-}, {
-    "term": "Identify the correct order of the gates that information flows through in an LSTM unit. A. Input gate, forget gate, output gate. B. Forget gate, input gate, output gate. C. Output gate, forget gate, input gate. D. Forget gate, output gate, input gate",
-    "definition": "B"
-}, {
-    "term": "Which are some applications of LSTMs? A. Music composition B. Image captioning C. Next character prediction D. Chatbots E. Speech recognition",
-    "definition": "ABCDE"
-}, {
-    "term": "The tanh layer ensures the values in your network stay numerically stable, by squeezing all values between -1 and 1. This prevents any of the values from the current inputs from becoming so large that they make the other values insignificant. A. False B. True",
-    "definition": "B"
-}, {
-    "term": "What type of architecture is a named entity recognition using? A. Many to many B. Many to one C. One to many",
-    "definition": "A"
-}, {
-    "term": "Extract the named entities from the following sentence: Younes, a Moroccan artificial intelligence engineer, travelled to France for a conference. A. Younes, Moroccan, engineer. B. Younes, Moroccan, France. C. Younes, Moroccan, conference. D. Younes, Moroccan engineer, France.",
-    "definition": "B"
-}, {
-    "term": "In a vectorized representation of your data, equal sequence length allows more efficient batch processing. A. False B. True.",
-    "definition": "B"
-}, {
-    "term": "Which built-in Python method would you use to iterate over your test set during the evaluation step? Assuming you are using a data generator. A. next() B. slice() C. list() D. enumerate()",
-    "definition": "A"
-}, {
-    "term": "Why is it important to mask padded tokens when computing the loss? A. We add the loss of the padded tokens independently. B. Padded tokens are not part of the data and are just used to help us keep the same sequence length for more efficient batch processing. We should not include their loss.",
-    "definition": "B"
-}, {
-    "term": "In which of the following orders should we train an Named Entity Recognition with an LSTM? A. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Run the output through a dense layer Feed it into an LSTM unit Predict using a log softmax over K classes B. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Run the output through a dense layer Predict using a log softmax over K classes Feed it into an LSTM unit C. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Feed it into an LSTM unit Run the output through a dense layer Predict using a log softmax over K classes",
-    "definition": "C"
-}, {
-    "term": "LSTMS solve vanishing/exploding gradient problems when compared to basic RNNs. A. True B. False",
-    "definition": "A"
-}, {
-    "term": "Classification allows you to identify similarity between two things while siamese networks allow you to categorize things. A. True B. False",
-    "definition": "B"
-}, {
-    "term": "Do the two subnetworks in a siamese network share the same parameters? A. N​o B. Y​es",
-    "definition": "B"
-}, {
-    "term": "When training a siamese network to identify duplicates, which pairs of questions from the following questions do you expect to have the highest cosine similarity ? Is learning NLP useful for me to get a job? (ANCHOR) What should I learn to get a job? (POSITIVE) Where is the job? (NEGATIVE) A. Anchor, Positive B. Anchor, Negative C. Negative, Positive",
-    "definition": "A"
-}, {
-    "term": "In the triplet loss function below, will decreasing the hyperparameter alpha from 0.5 to 0.2 require more, or less, optimization during training ? diff = s(A,N) − s(A,P) L(A,P,N) = max(diff+α, 0) A. Less B. More.",
-    "definition": "A"
-}, {
-    "term": "The orange square below corresponds to the similarity score of question duplicates? A. True B. False",
-    "definition": "B"
-}, {
-    "term": "What is the closest negative in this set of numbers assuming a duplicate pair similarity of 0.6? [-0.9,-0.4,0.4, 0.8] A. -0.9 B. -0.4 C. 0.4 D. 0.8",
-    "definition": "C"
-}, {
-    "term": "In one shot learning, is any retraining required when new classes are added? For example, a new bank customer's signature. A. Y​es B. N​o",
-    "definition": "B"
-}]
+{
+  "quizSrc": [
+    {
+        "term": "When performing logistic regression on sentiment analysis, you represented each tweet as a vector of ones and zeros. However your model did not work well. Your training cost was reasonable, but your testing cost was just not acceptable. What could be a possible reason? A. The vector representations are sparse and therefore it is much harder for your model to learn anything that could generalize well to the test set. B. You probably need to increase your vocabulary size because it seems like you have very little features. C. Logistic regression does not work for sentiment analysis, and therefore you should be looking at other models. D. Sparse representations require a good amount of training time so you should train your model for longer",
+        "definition": "A. The vector representations are sparse and therefore it is much harder for your model to learn anything that could generalize well to the test set."
+    }, {
+        "term": "Which of the following are examples of text preprocessing? A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLs D. Adding new words to make sure all the sentences make sense",
+        "definition": "A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLsBC"
+    }, {
+        "term": "The sigmoid function is defined as h(x^(i) ,θ) = 1 / (1+e^(−θ^Tx^(i))) . Which of the following is true. A. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to -1. B. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to 0. C. Small positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large positive values of θ^Tx^(i) will make h(x^(i), θ) close to 0. D. Small positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 0 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to -1.",
+        "definition": "B. Large positive values of θ^Tx^(i) will make h(x^(i), θ) closer to 1 and large negative values of θ^Tx^(i) will make h(x^(i), θ) close to 0."
+    }, {
+        "term": "The cost function for logistic regression is defined as J(θ) = −1/m *​ ∑^{i=1}_m [y^(i)logh(x^(i), θ)+(1−y^(i))log(1−h(x^(i), θ))]. Which of the following is true about the cost function above. Mark all the correct ones. A. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches ∞. B. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches 0. C. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches 0. D. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches ∞.",
+        "definition": "A. When y^(i) = 1, as h(x^(i), θ) goes close to 0, the cost function approaches ∞. C. When y^(i) = 0, as h(x^(i), θ) goes close to 0, the cost function approaches 0."
+    }, {
+        "term": "For what value of θ^Tx in the sigmoid function does h(x^(i), θ)=0.5.",
+        "definition": "0"
+    }, {
+        "term": "Select all that apply. When performing logistic regression for sentiment analysis using the method taught in this week's lecture, you have to: A. Performing data processing. B. Create a dictionary that maps the word and the class that word is found in to the number of times that word is found in the class. C. Create a dictionary that maps the word and the class that word is found in to see if that word shows up in the class. D. For each tweet, you have to create a positive feature with the sum of positive counts of each word in that tweet. You also have to create a negative feature with the sum of negative counts of each word in that tweet.",
+        "definition": "A. Performing data processing. B. Create a dictionary that maps the word and the class that word is found in to the number of times that word is found in the class. D. For each tweet, you have to create a positive feature with the sum of positive counts of each word in that tweet. You also have to create a negative feature with the sum of negative counts of each word in that tweet."
+    }, {
+        "term": "When training logistic regression, you have to perform the following operations in the desired order. A. Initialize parameters, get gradient, classify/predict, update, get loss, repeat B. Initialize parameters, classify/predict, get gradient, update, get loss, repeat C. Initialize parameters, get gradient, update, classify/predict, get loss, repeat D. Initialize parameters, get gradient, update, get loss, classify/predict, repeat",
+        "definition": "B"
+    }, {
+        "term": "Assuming we got the classification correct, where y^(i) = 1 for some specific example i. This means that h(x^(i), θ) > 0.5. Which of the following has to hold: A. Our prediction, h(x^(i), θ) for this specific training example is exactly equal to its corresponding label y^(i). B. Our prediction, h(x^(i), θ) for this specific training example is less than 1−y^(i)). C. Our prediction, h(x^(i), θ) for this specific training example is less than (1−h(x^(i), θ)). D. Our prediction, h(x^(i), θ) for this specific training example is greater than (1−h(x^(i), θ)).",
+        "definition": "D"
+    }, {
+        "term": "What is the purpose of gradient descent? Select all that apply. A. Gradient descent allows us to learn the parameters θ in logistic regression as to minimize the loss function J. B. Gradient descent allows us to learn the parameters θ in logistic regression as to maximize the loss function J. C. Gradient descent, grad_theta allows us to update the parameters θ by computing θ = θ − α ∗ grad_theta D. Gradient descent, grad_theta allows us to update the parameters θ by computing θ = θ + α ∗ grad_theta",
+        "definition": "AC"
+    }, {
+        "term": "What is a good metric that allows you to decide when to stop training/trying to get a good model? Select all that apply. A. When your accuracy is good enough on the test set. B. When your accuracy is good enough on the train set. C. When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much). D. When α, your step size is neither too small nor too large.",
+        "definition": "AC"
+    }, {
+        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons B and C are unhappy. If you were to randomly pick a person from the room, what is the probability that the person is happy. A. 1/2 B. 1/4 C. 3/4 D. 0",
+        "definition": "A"
+    }, {
+        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons B and C are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? A. 1/2 B. 1/4 C. 3/4 D. 1",
+        "definition": "A"
+    }, {
+        "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive P( Positive ∣ \"happy\" ) = P( Positive ∩ \"happy\" ) / P( \"happy\" ) P( \"happy\" ∣ Positive ) = P( \"happy\" ∩ Positive ) / P( Positive ) A. P( Positive ∣ happy ) = P( happy ∣ Positive ) × P( Positive ) / P( happy) B. P( Positive ∣ happy ) = P( \"happy\" ∣ Positive ) × P( happy ) / P( Positive ) C. P( Positive ⋂ happy ) = P( happy ∣ Positive ) × P( Positive ) / P( happy) D. P( Positive ⋂ happy ) = P( \"happy\" ∣ Positive ) × P( happy ) / P( Positive )",
+        "definition": "A"
+    }, {
+        "term": "Bayes rule is defined as A. P(X∣Y) = P(Y∣X) × P(X) / P(Y) B. P(X∣Y) = P(Y∣X) × P(Y) / P(X) C. P(X∣Y) = P(X∣Y) × P(X) / P(Y) D. P(X∣Y) = P(Y∣X) × P(X) / P(Y∣X)",
+        "definition": "A"
+    }, {
+        "term": "Suppose that in your dataset, 25% of the positive tweets contain the word 'happy'. You also know that a total of 13% of the tweets in your dataset contain the word 'happy', and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'. What is the probability that this tweet is positive? Enter answer here",
+        "definition": "0.77"
+    }, {
+        "term": "The log likelihood for a certain word w_i is defined as: log( P(w_i ∣ pos) / P(w_i ∣ neg) ). A. Positive numbers imply that the word is positive. B. Positive numbers imply that the word is negative. C. Negative numbers imply that the word is negative. D. Negative numbers imply that the word is positive.",
+        "definition": "AC"
+    }, {
+        "term": "The log likelihood mentioned in lecture, which is the log of the ratio between two probabilities is bounded between A. -1 and 1 B. −∞ and ∞ C. 0 and ∞ D. 0 and 1",
+        "definition": "B"
+    }, {
+        "term": "When implementing naive Bayes, in which order should the following steps be implemented. A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) B. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) C. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) D. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
+        "definition": "A"
+    }, {
+        "term": "To predict using naive bayes, which of the following are required. A. X_val, Y_val, λ, logprior B. X_val, Y_val, logprior C. X_val, λ, logprior D. Y_val, λ, logprior",
+        "definition": "A"
+    }, {
+        "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
+        "definition": "E"
+    }, {
+        "term": "G​iven a corpus A, encoded as (1, 2, 3) and corpus B encoded as (4, 7, 2), What is the euclidean distance between the two documents? A. 5.91608 B. 3​5 C. 2​.43 D. N​one of the above",
+        "definition": "A"
+    }, {
+        "term": "G​iven the previous problem, a user now came up with a corpus C defined as (3, 1, 4) and you want to recommend a document that is similar to it. Would you recommend document A or document B? A. Document A​ B. Document B​",
+        "definition": "A"
+    }, {
+        "term": "W​hich of the following is true about euclidean distance? A. W​hen comparing similarity between two corpuses, it does not work well when the documents are of different sizes. B. I​t is the norm of the difference between two vectors. C. I​t is a method that makes use of the angle between two vectors D. I​t is the norm squared of the difference between two vectors.",
+        "definition": "AB"
+    }, {
+        "term": "W​hat is the range of a cosine similarity score, namely s, in the case of information retrieval where the vectors are positive? A. -1 ≤ s ≤ 1 B. -∞ ≤ s ≤ ∞ C. 0 ≤ s ≤ 1 D. -1 ≤ s ≤ 0",
+        "definition": "C"
+    }, {
+        "term": "T​he cosine similarity score of corpus A = (1, 0, −1) and corpus B = (2, 8, 1) is equal to ? A. 0.08512565307587486 B. 0​ C. 1​.251903 D. -​0.3418283",
+        "definition": "A"
+    }, {
+        "term": "W​e will define the following vectors, USA = (5, 6), Washington = (10, 5), Turkey = (3, 1), Ankara = (9, 1), Russian = (5, 5), and Japan = (4, 3). Using only the following vectors, Ankara is the capital of what country? A. J​apan B. R​ussia C. Morocco D. T​urkey",
+        "definition": "D"
+    }, {
+        "term": "P​lease select all that apply. PCA is A. u​sed to reduce the dimension of your data. B. v​isualize word vectors C. m​ake predictions D. l​abel data",
+        "definition": "AB"
+    }, {
+        "term": "P​lease select all that apply. Which is correct about PCA? A. Y​ou can think of an eigenvector as an uncorrelated feature for your data. B. T​he eigenvalues tell you the amount of information retained by each feature. C. I​f working with features in different scales, you do not have to mean normalize. D. C​omputing the covariance matrix is critical when performing PCA",
+        "definition": "ABD"
+    }, {
+        "term": "I​n which order do you perform the following operations when computing PCA? A. m​ean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. B. m​ean normalize, perform SVD, get Σ the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. C. get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, m​ean normalize. D. get Σ the covariance matrix, m​ean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.",
+        "definition": "A"
+    }, {
+        "term": "V​ector space models allow us to A. T​o represent words and documents as vectors. B. b​uild useful applications including and not limited to, information extraction, machine translation, and chatbots. C. c​reate representations that capture similar meaning. D. b​uild faster training algorithms",
+        "definition": "ABC"
+    }, {
+        "term": "A​ssume that your objective is to minimize the transformation of X as similar to Y as possible, what would you optimize to get R? (XR≈Y) A. M​inimize the distance between XR and Y B. Maximize the distance between XR and Y C. M​inimize the dot product between XR and Y D. Maximize the dot product between XR and Y",
+        "definition": "A"
+    }, {
+        "term": "W​hen solving for R, which of the following is true? A. C​reate a forloop, inside the forloop: (initialize R, compute the gradient, update the loss B. C​reate a forloop, inside the forloop: (initialize R, update the loss, compute the gradient. C. Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss) D. Initialize R, compute the gradient, create a forloop, inside the forloop: (update the loss)",
+        "definition": "C"
+    }, {
+        "term": "T​he Frobenius norm of A = (1, 3; 4, 5) is Enter answer here",
+        "definition": "7.14"
+    }, {
+        "term": "A​ssume X∈R^m×n, R∈R^n×n, Y∈R^m×n which of the following is the gradient of ∥XR−Y∥_F^2? A. 2/m × X^T × (XR-Y) B. 2/m × X × (XR-Y) C. 2/m × (XR-Y) × X D. 2/m × (XR-Y) × X^T",
+        "definition": "A"
+    }, {
+        "term": "I​magine that you are visiting a city in the US. If you search for friends that are living in the US, would you be able to determine the 2 closest of ALL your friends around the world? A. Y​es, because I am already in the country and that implies that my closest friends are also going to be in the same country. B. N​o",
+        "definition": "B"
+    }, {
+        "term": "W​hat is the purpose of using a function to hash vectors into values? A. T​o speed up the time it takes when comparing similar vectors. B. T​o not have to spend time comparing vectors with other vectors that are completely different. C. T​o make the search for other similar vectors more accurate. D. It helps us create vectors.",
+        "definition": "AB"
+    }, {
+        "term": "Given the following vectors, determine the true statements. P: (1, 1) V_1: (1, 1) V_2: (2, 2) V_3: (−1, −1) A. P × V_1^T and P × V_2^T have the same sign. B. P × V_1^T and P × V_2^T are equal in magnitude. C. P × V_1^T and P × V_3^T have the same sign.",
+        "definition": "A"
+    }, {
+        "term": "W​e define H to be the number of planes and h_i to be 1 or 0 depending on the sign of the dot product with plane i. Which of the following is the equation used to calculate the hash for several planes. A. ∑_i^H 2^i × h_i B. ∑_i^H 2^i × h_i^i C. ∑_i^H 2i × h_i​ D. ∑_i^H 2^h_i × i",
+        "definition": "A"
+    }, {
+        "term": "H​ow can you speed up the look up for similar documents. A. P​CA B. A​pproximate Nearest Neighbors C. K​-Means D. L​ocality sensitive hashing",
+        "definition": "BD"
+    }, {
+        "term": "H​ash tables are useful because A. a​llow us to divide vector space to regions. B. s​peed up look up C. c​lassify with higher accuracy D. c​an always be reproduced",
+        "definition": "ABD"
+    }, {
+        "term": "The Transition matrix A defined in lecture allows you to: A. Compute the probability of going from a word to another word. B. Compute the probability of going from a part of speech tag to a word. C. Compute the probability of going from a part of speech tag to another part of speech tag. D. Compute the probability of going from a word to a part of speech tag.",
+        "definition": "C"
+    }, {
+        "term": "The Emission matrix B defined in lecture allows you to: A. Compute the probability of going from a word to another word. B. Compute the probability of going from a part of speech tag to another part of speech tag. C. Compute the probability of going from a word to a part of speech tag. D. Compute the probability of going from a part of speech tag to a word.",
+        "definition": "D"
+    }, {
+        "term": "The column sum of the emission matrix has to be equal to 1. A. False. B. True.",
+        "definition": "A"
+    }, {
+        "term": "The row sum of the transition matrix has to be 1. A. True B. False, it has to be the column sum.",
+        "definition": "A"
+    }, {
+        "term": "Why is smoothing usually applied? Select all that apply. A. Applying smoothing, for the majority of cases, allows us to decrease the probabilities in the transition and emission matrices and this allows us to have non zero probabilities. B. Applying smoothing is a bad idea and we should not use it. C. Applying smoothing, for the minority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities. D. Applying smoothing, for the majority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities.",
+        "definition": "AC"
+    }, {
+        "term": "Given the following D matrix, what would be the sequence of tags for the words on the right? A. t_2, t_3, t_1, t_3, t_1 B. t_3, t_4, t_2, t_2, t_1 C. t_1, t_3, t_1, t_2, t_1 D. t_3, t_4, t_2, t_3, t_1",
+        "definition": "A"
+    }, {
+        "term": "Previously, we have been multiplying the raw probabilities, but in reality we take the log of those probabilities. Why might that be the case? A. The log probabilities help us with the inference as they bound the numbers between -1 and 1. B. Because the log probabilities force the numbers to be between 0 and 1 and hence, we want to take a probability. C. We take the log probabilities because probabilities are bounded between 0 and 1 and as a result, the numbers could be too small and will go towards 0. D. The log probabilities should not be used because they introduce noise to our original computed scores.",
+        "definition": "C"
+    }, {
+        "term": "Which of the following are useful for applications for parts of speech tagging? A. Named Entity Recognition B. Coreference Resolution C. Sentiment Analysis D. Speech recognition",
+        "definition": "ABD"
+    }, {
+        "term": "Corpus: \"In every place of great resort the monster was the fashion. They sang of it in the cafes, ridiculed it in the papers, and represented it on the stage. \" (Jules Verne, Twenty Thousand Leagues under the Sea) In the context of our corpus, what is the probability of word \"papers\" following the phrase \"it in the\". A. P(papers|it in the) = 0 B. P(papers|it in the) =1 C. P(papers|it in the) = 2/3 D. P(papers|it in the) = 1/2",
+        "definition": "D"
+    }, {
+        "term": "Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 . P(Mary|likes) =0.2; P(likes|Mary) =0.3; P(cats|likes)=0.1; P(likes|cats)=0.4 Approximate the probability of the following sentence with bigrams: \"Mary likes cats\" A. P(Mary likes cats) =1 B. P(Mary likes cats) = 0 C. P(Mary likes cats) = 0.008 D. P(Mary likes cats) = 0.003",
+        "definition": "D"
+    }, {
+        "term": "Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 P(Mary|<s>)=0.2; P(</s>|cats)=0.6 P(likes|Mary) =0.3; P(cats|likes)=0.1 Approximate the probability of the following sentence with bigrams: \"<s> Mary likes cats </s>\" A. P(<s> Mary likes cats </s>) = 1 B. P(<s> Mary likes cats </s>) = 0.0036 C. P(<s> Mary likes cats </s>) = 0 D. P(<s> Mary likes cats </s>) = 0.003",
+        "definition": "B"
+    }, {
+        "term": "Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Approximate the log probability of the following sentence with bigrams : \"<s> Mary likes cats </s>\" A. log(P(<s> Mary likes cats </s>)) = 2000 B. log(P(<s> Mary likes cats </s>)) = 113 C. log(P(<s> Mary likes cats </s>)) = -112 D. log(P(<s> Mary likes cats </s>)) = -113",
+        "definition": "D"
+    }, {
+        "term": "Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Assuming our test set is W=\"<s> Mary likes cats </s>\", what is the model's perplexity. A. log PP(W) = -113 B. log PP(W) = (-1/5)*(-113) C. log PP(W) = (-1/4)*(-113) D. log PP(W) = (-1/5)*113",
+        "definition": "C"
+    }, {
+        "term": "Given the training corpus and minimum word frequency=2, how would the vocabulary for corpus preprocessed with <UNK> look like? \"<s> I am happy I am learning </s> <s> I am happy I can study </s>\" A. V = (I,am,happy,learning,can,study) B. V = (I,am,happy,learning,can,study,<UNK>) C. V = (I,am,happy,I,am) D. V = (I,am,happy)",
+        "definition": "D"
+    }, {
+        "term": "Corpus: \"I am happy I am learning\" In the context of our corpus, what is the estimated probability of word \"can\" following the word \"I\" using the bigram model and add-k-smoothing where k=3. A. P(can|I) = 0 B. P(can|I) =1 C. P(can|I) = 3/(2+3*4) D. P(can|I) = 3/(3*4)",
+        "definition": "C"
+    }, {
+        "term": "Which of the following are applications of n-gram language models? A. Speech recognitions B. Auto-complete C. Auto-correct D. Augmentative communication E. Sentiment Analysis",
+        "definition": "ABCD"
+    }, {
+        "term": "The higher the perplexity score the more our corpus will make sense. A. True B. False",
+        "definition": "B"
+    }, {
+        "term": "The perplexity score increases as we increase the number of <UNK> tokens. A. False. B. True.",
+        "definition": "B"
+    }, {
+        "term": "Which one of the following word representations is most likely to correspond to a word embedding representation in a general-purpose vocabulary? In other words, which one is most likely to capture meaning and important information about the words? A. car -> 2 caravan -> 3 B. car -> (0.1 1) caravan -> (-0.1 0.9) C. car -> (0 1 0 0) caravan -> (0 0 1 0) D. car -> (1 0.1) caravan -> (-1 -0.9)",
+        "definition": "B"
+    }, {
+        "term": "Which one of the following statements is correct? A. To learn word embeddings you only need a vocabulary and an embedding method. B. Learning word embeddings using a machine learning model is unsupervised learning as the input data set is not labelled. C. The objective of a machine learning model that learns word embeddings is to predict word embeddings. D. The meaning of the words, as carried by the word embeddings, depends on the embedding approach.",
+        "definition": "D"
+    }, {
+        "term": "Which one of the following statements is false? A. word2vec-based models cannot create word embeddings for words they did not see in the corpus they were trained on. B. ELMo may have different word embeddings for the word \"stable\" depending on the context. C. You need to train a deep neural network to learn word embeddings. D. You can use a pre-trained BERT model to learn word embeddings on a previously unseen corpus.",
+        "definition": "C"
+    }, {
+        "term": "Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context half-size of 3, what are the context words of the center word \"inaction\"? A. \"being inaction human\" B. \"being or through allow a human\" C. \"being or through inaction allow a human\" D. \"through inaction allow\"",
+        "definition": "B"
+    }, {
+        "term": "Which one of the following statements is false? A. Given the corpus \"I think therefore I am\", the word \"think\" could be represented by the one-hot vector (1 0 0 0). B. Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context size of 3, the context words of the center word \"inaction\" are: \"a\", \"allow\", \"being\", \"human\", \"or\", and \"through\" C. The continuous bag-of-words model learns to predict context words given a center word. D. Given the corpus \"I think therefore I am\", the word \"you\" cannot be represented.",
+        "definition": "C"
+    }, {
+        "term": "You are designing a neural network for a CBOW model that will be trained on a corpus with a vocabulary of 8000 words. If you want it to learn 400-dimensional word embedding vectors, what should be the sizes of the input, hidden, and output layers? A. 8000 (input layer), 8000 (hidden layer), 400 (output layer) B. 400 (input layer), 400 (hidden layer), 8000 (output layer) C. 8000 (input layer), 400 (hidden layer), 8000 (output layer) D. 8000 (input layer), 400 (hidden layer), 400 (output layer)",
+        "definition": "C"
+    }, {
+        "term": "If you are designing a neural network for a CBOW model that will be trained on a corpus of 8000 words, and if you want it to learn 400-dimensional word embedding vectors, what should be the size of W1, the weighting matrix between the input layer and hidden layer, if it is fed training examples in batches of 16 examples represented by a 8000 row by 16 column matrix? Hint: if X is the input matrix, H the matrix for the hidden layer, and B1 the bias matrix, then H = ReLU(W1X + B1). A. 400 rows by 8000 columns B. 16 rows by 8000 columns C. 400 rows by 16 columns D. 8000 rows by 16 columns",
+        "definition": "A"
+    }, {
+        "term": "Given the input vector x below, a trained continuous bag-of-words model outputs the vector ŷ below. What is the word predicted by the model? A. Think B. am C. Therefore D. I",
+        "definition": "C"
+    }, {
+        "term": "The following weighting matrix W_1 has been learned after training a CBOW model. You are also given word-to-row mapping for the input column vectors. ​What is the word embedding vector for \"ring\"? A. [-1.9; -1.18; 2.61; -1.7; -4.36; -4.54] B. [-2.39; -1.3; -1.7; 1.75] C. [4.56; -2.94; 2.61; -1.16] D. [0; 0; 1; 0; 0; 0]",
+        "definition": "C"
+    }, {
+        "term": "Select all that are correct. A. You can perform intrinsic evaluation by using a clustering algorithm to group similar word embedding vectors, and determining if the clusters capture related words. B. Extrinsic evaluation evaluates actual usefulness of embeddings, is time consuming and is more difficult to trouble shoot. C. To evaluate word embeddings with intrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings. D. To evaluate word embeddings with extrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings.",
+        "definition": "ABD"
+    }, {
+        "term": "How many layers does the following neural network have? A. 1 B. 2 C. 3 D. 4",
+        "definition": "C"
+    }, {
+        "term": "Let us analyze the following class: What would be the output above? A. 12 B. Null C. 2 D. 14",
+        "definition": "D"
+    }, {
+        "term": "The ReLU layer, is an activation layer that typically follows a dense fully connected layer, and transforms all values between 0 and 1 before sending them on to the next layer. A. True B. False",
+        "definition": "B"
+    }, {
+        "term": "The ReLU layer is an activation layer that typically follows a dense fully connected layer, and transforms any negative values to 0 before sending them on to the next layer. A. False B. True",
+        "definition": "B"
+    }, {
+        "term": "For the embedding layer in your model, you'd have to learn a matrix of weights of what size? A. Equal to your vocabulary times the dimension of the number of layers B. Equal to your vocabulary times the dimension of the number of classes C. Equal to the dimension of the embedding times the first dimension of the matrix in the first layer. D. Equal to your vocabulary times the dimension of the embedding",
+        "definition": "D"
+    }, {
+        "term": "What would be the probability of a five word sequence using a penta-gram? A. P(w5∣w4,w3,w2,w1) = count(w5,w4,w3,w2,w1) / count(w4,w3,w2,w1) B. P(w5,w4,w3,w2,w1) = P(w1)×P(w2∣w1)×P(w3∣w1,w2)×P(w4∣w1,w2,w3)×P(w5∣w1,w2,w3,w4) C. P(w5,w4,w3,w2,w1) = P(w1)×P(w2)×P(w3)×P(w4)×P(w5) D. P(w5,w4,w3,w2,w1) = P(w5∣w4,w3,w2,w1)",
+        "definition": "B"
+    }, {
+        "term": "The number of parameters in an RNN is the same regardless of the input's length. A. False B. True.",
+        "definition": "B"
+    }, {
+        "term": "Select all the examples that correspond to a \"many to one\" architecture. A. An RNN which inputs a sentiment and generates a sentence. B. An RNN which inputs a sentence and determines the sentiment. C. An RNN which inputs a topic and generates a conversation about that topic. D. An RNN which inputs a conversation and determines the topic.",
+        "definition": "BD"
+    }, {
+        "term": "What should be the size of matrix Wh, if h<t> had size 4x1 and x<t> 10x1? h<t> = g(Wh[h<t−1>,x<t>]+bh) A. 4x14 B. 14x4 C. 4x4 D. 14x14",
+        "definition": "A"
+    }, {
+        "term": "In the next equation, why is there a division by the number of time steps but not one for the number of classification categories? J = −1/T ∑^T_t=1 ∑^K_j=1 yj<t> log ŷj<t> A. Because there is just one value in every vector y<t> different from zero. B. Because the equation is wrong. C. Because this equation is given for a single example. D. Because for most classification tasks there are only two categories.",
+        "definition": "A"
+    }, {
+        "term": "What problem, related to vanilla RNNs, do GRUs tackle? A. Loss of relevant information for long sequences of words. B. Overfitting C. High computational time for training and prediction. D. Restricted flow of information from the past to the present.",
+        "definition": "A"
+    }, {
+        "term": "Bidirectional RNNs are acyclic graphs, which means that the computations in one direction are independent from the ones in the other direction. A. True B. False",
+        "definition": "A"
+    }, {
+        "term": "Compared to Traditional Language models which of the following problems does an RNN help us with? A. Helps us solve memory issues. B. Helps us solve RAM issues. C. They require almost no knowledge to use when compared to the traditional n-gram model. D. They are much simpler to understand.",
+        "definition": "AB"
+    }, {
+        "term": "What type of RNN structure would you use when implementing machine translation? A. Many to one B. One to many C. One to one D. Many to Many",
+        "definition": "D"
+    }, {
+        "term": "In the scan() function the variable cur_value corresponds to the hidden state in an RNN. A. True B. False",
+        "definition": "A"
+    }, {
+        "term": "Identify the correct order of the gates that information flows through in an LSTM unit. A. Input gate, forget gate, output gate. B. Forget gate, input gate, output gate. C. Output gate, forget gate, input gate. D. Forget gate, output gate, input gate",
+        "definition": "B"
+    }, {
+        "term": "Which are some applications of LSTMs? A. Music composition B. Image captioning C. Next character prediction D. Chatbots E. Speech recognition",
+        "definition": "ABCDE"
+    }, {
+        "term": "The tanh layer ensures the values in your network stay numerically stable, by squeezing all values between -1 and 1. This prevents any of the values from the current inputs from becoming so large that they make the other values insignificant. A. False B. True",
+        "definition": "B"
+    }, {
+        "term": "What type of architecture is a named entity recognition using? A. Many to many B. Many to one C. One to many",
+        "definition": "A"
+    }, {
+        "term": "Extract the named entities from the following sentence: Younes, a Moroccan artificial intelligence engineer, travelled to France for a conference. A. Younes, Moroccan, engineer. B. Younes, Moroccan, France. C. Younes, Moroccan, conference. D. Younes, Moroccan engineer, France.",
+        "definition": "B"
+    }, {
+        "term": "In a vectorized representation of your data, equal sequence length allows more efficient batch processing. A. False B. True.",
+        "definition": "B"
+    }, {
+        "term": "Which built-in Python method would you use to iterate over your test set during the evaluation step? Assuming you are using a data generator. A. next() B. slice() C. list() D. enumerate()",
+        "definition": "A"
+    }, {
+        "term": "Why is it important to mask padded tokens when computing the loss? A. We add the loss of the padded tokens independently. B. Padded tokens are not part of the data and are just used to help us keep the same sequence length for more efficient batch processing. We should not include their loss.",
+        "definition": "B"
+    }, {
+        "term": "In which of the following orders should we train an Named Entity Recognition with an LSTM? A. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Run the output through a dense layer Feed it into an LSTM unit Predict using a log softmax over K classes B. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Run the output through a dense layer Predict using a log softmax over K classes Feed it into an LSTM unit C. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Feed it into an LSTM unit Run the output through a dense layer Predict using a log softmax over K classes",
+        "definition": "C"
+    }, {
+        "term": "LSTMS solve vanishing/exploding gradient problems when compared to basic RNNs. A. True B. False",
+        "definition": "A"
+    }, {
+        "term": "Classification allows you to identify similarity between two things while siamese networks allow you to categorize things. A. True B. False",
+        "definition": "B"
+    }, {
+        "term": "Do the two subnetworks in a siamese network share the same parameters? A. N​o B. Y​es",
+        "definition": "B"
+    }, {
+        "term": "When training a siamese network to identify duplicates, which pairs of questions from the following questions do you expect to have the highest cosine similarity ? Is learning NLP useful for me to get a job? (ANCHOR) What should I learn to get a job? (POSITIVE) Where is the job? (NEGATIVE) A. Anchor, Positive B. Anchor, Negative C. Negative, Positive",
+        "definition": "A"
+    }, {
+        "term": "In the triplet loss function below, will decreasing the hyperparameter alpha from 0.5 to 0.2 require more, or less, optimization during training ? diff = s(A,N) − s(A,P) L(A,P,N) = max(diff+α, 0) A. Less B. More.",
+        "definition": "A"
+    }, {
+        "term": "The orange square below corresponds to the similarity score of question duplicates? A. True B. False",
+        "definition": "B"
+    }, {
+        "term": "What is the closest negative in this set of numbers assuming a duplicate pair similarity of 0.6? [-0.9,-0.4,0.4, 0.8] A. -0.9 B. -0.4 C. 0.4 D. 0.8",
+        "definition": "C"
+    }, {
+        "term": "In one shot learning, is any retraining required when new classes are added? For example, a new bank customer's signature. A. Y​es B. N​o",
+        "definition": "B"
+    }]
+}
