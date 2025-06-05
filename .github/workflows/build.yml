@@ -1,4 +1,4 @@
-name: Deploy static site to GitHub Pages
+name: Deploy Static Site to GitHub Pages
 
 on:
   push:
@@ -30,10 +30,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build static site
+      - name: Build site
         run: npm run build
 
-      - name: Upload build output
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./build
