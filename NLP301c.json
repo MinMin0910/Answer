@@ -38,13 +38,13 @@
         "definition": "When your accuracy is good enough on the test set.|When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much)."
     }, {
         "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If you were to randomly pick a person from the room, what is the probability that the person is happy. | 1/2 | 1/4 | 3/4 | 0",
-        "definition": "1/2"
+        "definition": "1/2 "
     }, {
-        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | 1/2 | 1/4 | 3/4 |  1",
-        "definition": "1/2"
+        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | A.1/2 | B.1/4 | C.3/4 |  D.1 ",
+        "definition": " D.1 "
     }, {
-        "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive 1 2 | 3 | 4| 5 | 6  ",
-        "definition": "1  "
+        "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive 1 2 | A. 3 | B. 4 | C.5 | D.6  ",
+        "definition": " 3  "
     }, {
         "term": "Bayes rule is defined as | 7 | 8 | 9| 10",
         "definition": "7"
@@ -61,8 +61,8 @@
         "term": "When implementing naive Bayes, in which order should the following steps be implemented. A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) B. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) C. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) D. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
         "definition": "A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))"
     }, {
-        "term": "To test naive bayes model, which of the following are required? | 11 | 12 | 13 | 14",
-        "definition": "11"
+        "term": "To test naive bayes model, which of the following are required? | A.11 | B.12 | C.13 | D.14 ",
+        "definition": " A.11 "
     }, {
         "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
         "definition": "E. Numerical predictions"
