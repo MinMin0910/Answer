@@ -37,35 +37,35 @@
         "term": "What is a good metric that allows you to decide when to stop training/trying to get a good model? Select all that apply. | When your accuracy is good enough on the test set. | When your accuracy is good enough on the train set. | When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much). | When \n𝛼\nα\nalpha\n, your step size is neither too small nor too large.",
         "definition": "When your accuracy is good enough on the test set.|When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much)."
     }, {
-        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons B and C are unhappy. If you were to randomly pick a person from the room, what is the probability that the person is happy. A. 1/2 B. 1/4 C. 3/4 D. 0",
-        "definition": "A"
+        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If you were to randomly pick a person from the room, what is the probability that the person is happy. | 1/2 | 1/4 | 3/4 | 0",
+        "definition": "1/2"
     }, {
-        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | A.1/2 | B. 1/4 | C. 3/4 | D. 1",
-        "definition": "A. 1/2"
+        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | 1/2 | 1/4 | 3/4 |  1",
+        "definition": "1/2"
     }, {
         "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive| 3 | 4| 5 | 6  ",
         "definition": "1  "
     }, {
-        "term": "Bayes rule is defined as A. P(X∣Y) = P(Y∣X) × P(X) / P(Y) B. P(X∣Y) = P(Y∣X) × P(Y) / P(X) C. P(X∣Y) = P(X∣Y) × P(X) / P(Y) D. P(X∣Y) = P(Y∣X) × P(X) / P(Y∣X)",
-        "definition": "A"
+        "term": "Bayes rule is defined as | 7 | 8 | 9| 10",
+        "definition": "7"
     }, {
-        "term": "Suppose that in your dataset, 25% of the positive tweets contain the word 'happy'. You also know that a total of 13% of the tweets in your dataset contain the word 'happy', and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'. What is the probability that this tweet is positive? Enter answer here",
+        "term": "Suppose that in your dataset, 25% of the positive tweets contain the word ‘happy’. You also know that a total of 13% of the tweets in your dataset contain the word 'happy', and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'. What is the probability that this tweet is positive? (Please, round your answer up to two decimal places. Remember that 0.578 = 0.58 and 0.572 = 0.57)",
         "definition": "0.77"
     }, {
-        "term": "The log likelihood for a certain word w_i is defined as: log( P(w_i ∣ pos) / P(w_i ∣ neg) ). A. Positive numbers imply that the word is positive. B. Positive numbers imply that the word is negative. C. Negative numbers imply that the word is negative. D. Negative numbers imply that the word is positive.",
-        "definition": "AC"
+        "term": "The log likelihood for a certain word is defined as: | Positive numbers imply that the word is positive. | Positive numbers imply that the word is negative.| Negative numbers imply that the word is negative. | Negative numbers imply that the word is positive.",
+        "definition": "Positive numbers imply that the word is positive. | Negative numbers imply that the word is negative."
     }, {
-        "term": "The log likelihood mentioned in lecture, which is the log of the ratio between two probabilities is bounded between A. -1 and 1 B. −∞ and ∞ C. 0 and ∞ D. 0 and 1",
-        "definition": "B"
+        "term": "The log likelihood mentioned in lecture, which is the log of the ratio between two probabilities is bounded between | -1 and 1 |and| 0 and |0 and 1 | 1 point",
+        "definition": "and"
     }, {
         "term": "When implementing naive Bayes, in which order should the following steps be implemented. A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) B. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) C. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) D. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
-        "definition": "A"
+        "definition": "A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))"
     }, {
-        "term": "To predict using naive bayes, which of the following are required. A. X_val, Y_val, λ, logprior B. X_val, Y_val, logprior C. X_val, λ, logprior D. Y_val, λ, logprior",
-        "definition": "A"
+        "term": "To test naive bayes model, which of the following are required?| 11 | 12 | 13 | 14",
+        "definition": "11"
     }, {
         "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
-        "definition": "E"
+        "definition": "E. Numerical predictions"
     }, {
         "term": "G​iven a corpus A, encoded as (1, 2, 3) and corpus B encoded as (4, 7, 2), What is the euclidean distance between the two documents? A. 5.91608 B. 3​5 C. 2​.43 D. N​one of the above",
         "definition": "A"
