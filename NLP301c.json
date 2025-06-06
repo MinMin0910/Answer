@@ -43,8 +43,8 @@
         "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | A.1/2 | B. 1/4 | C. 3/4 | D. 1",
         "definition": "A. 1/2"
     }, {
-        "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive | A.  | B.  | C.  | D.  ",
-        "definition": "A.  "
+        "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive| 3 | 4| 5 | 6  ",
+        "definition": "1  "
     }, {
         "term": "Bayes rule is defined as A. P(X∣Y) = P(Y∣X) × P(X) / P(Y) B. P(X∣Y) = P(Y∣X) × P(Y) / P(X) C. P(X∣Y) = P(X∣Y) × P(X) / P(Y) D. P(X∣Y) = P(Y∣X) × P(X) / P(Y∣X)",
         "definition": "A"
