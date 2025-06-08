@@ -61,7 +61,7 @@
         "term": "When implementing naive Bayes, in which order should the following steps be implemented. A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) B. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) C. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) D. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
         "definition": "A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))"
     }, {
-        "term": "To test naive bayes model, which of the following are required?  A.i  B.j  C.k  D.l",
+        "term": "To test naive bayes model, which of the following are required?  A.i  B.j  C.k  D.l",
         "definition": "A.i"
     }, {
         "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
