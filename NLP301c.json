@@ -46,8 +46,8 @@
         "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive | a | b | c | d  ",
         "definition": " a "
     }, {
-        "term": "Bayes rule is defined as | e | f | g | h",
-        "definition": "e"
+        "term": "Bayes rule is defined as | a | b | c | d",
+        "definition": "a"
     }, {
         "term": "Suppose that in your dataset, 25% of the positive tweets contain the word ‘happy’. You also know that a total of 13% of the tweets in your dataset contain the word 'happy', and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'. What is the probability that this tweet is positive? (Please, round your answer up to two decimal places. Remember that 0.578 = 0.58 and 0.572 = 0.57)",
         "definition": "0.77"
@@ -61,8 +61,8 @@
         "term": "When implementing naive Bayes, in which order should the following steps be implemented. A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) B. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) C. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) D. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
         "definition": "A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))"
     }, {
-        "term": "To test naive bayes model, which of the following are required?  A.i  B.j  C.k  D.l",
-        "definition": "A.i"
+        "term": "To test naive bayes model, which of the following are required? | a | b | c |d",
+        "definition": "a"
     }, {
         "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
         "definition": "E. Numerical predictions"
