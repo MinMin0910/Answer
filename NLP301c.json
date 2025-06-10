@@ -67,149 +67,213 @@
         "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
         "definition": "E. Numerical predictions"
     }, {
-        "term": "G​iven a corpus A, encoded as (1, 2, 3) and corpus B encoded as (4, 7, 2), What is the euclidean distance between the two documents? A. 5.91608 B. 3​5 C. 2​.43 D. N​one of the above",
-        "definition": "A"
+        "term": "Given a corpus A, encoded as and corpus B encoded as , What is the euclidean distance between the two documents? | 5.91608 | 35 | 2.43 | None of the above",
+        "definition": "5.91608"
     }, {
-        "term": "G​iven the previous problem, a user now came up with a corpus C defined as (3, 1, 4) and you want to recommend a document that is similar to it. Would you recommend document A or document B? A. Document A​ B. Document B​",
-        "definition": "A"
+        "term": "Given the previous problem, a user now came up with a corpus C defined as and you want to recommend a document that is similar to it. Would you recommend document A or document B? | Document A | Document B​",
+        "definition": "Document A"
     }, {
-        "term": "W​hich of the following is true about euclidean distance? A. W​hen comparing similarity between two corpuses, it does not work well when the documents are of different sizes. B. I​t is the norm of the difference between two vectors. C. I​t is a method that makes use of the angle between two vectors D. I​t is the norm squared of the difference between two vectors.",
-        "definition": "AB"
+        "term": "Which of the following is true about euclidean distance? | When comparing similarity between two corpuses, it does not work well when the documents are of different sizes. | It is the norm of the difference between two vectors. | It is a method that makes use of the angle between two vectors | It is the norm squared of the difference between two vectors.",
+        "definition": "When comparing similarity between two corpuses, it does not work well when the documents are of different sizes. | It is the norm of the difference between two vectors."
     }, {
-        "term": "W​hat is the range of a cosine similarity score, namely s, in the case of information retrieval where the vectors are positive? A. -1 ≤ s ≤ 1 B. -∞ ≤ s ≤ ∞ C. 0 ≤ s ≤ 1 D. -1 ≤ s ≤ 0",
-        "definition": "C"
+        "term": "What is the range of a cosine similarity score, namely s, in the case of information retrieval where the vectors are positive? | a | b | c | d",
+        "definition": "c"
     }, {
-        "term": "T​he cosine similarity score of corpus A = (1, 0, −1) and corpus B = (2, 8, 1) is equal to ? A. 0.08512565307587486 B. 0​ C. 1​.251903 D. -​0.3418283",
-        "definition": "A"
+        "term": "The cosine similarity score of corpus A = and corpus B = is equal to ?| 0.08512565307587486| 0 | 1.251903 | -0.3418283",
+        "definition": "0.08512565307587486"
     }, {
-        "term": "W​e will define the following vectors, USA = (5, 6), Washington = (10, 5), Turkey = (3, 1), Ankara = (9, 1), Russian = (5, 5), and Japan = (4, 3). Using only the following vectors, Ankara is the capital of what country? A. J​apan B. R​ussia C. Morocco D. T​urkey",
-        "definition": "D"
+        "term": "We will define the following vectors, USA = , Washington = , Turkey = , Ankara = , Russia = , and Japan = . Using only the following vectors, Ankara is the capital of what country? Please consider the cosine similarity score in your calculations.| Japan| Russia| Morocco| Turkey",
+        "definition": "Turkey"
     }, {
-        "term": "P​lease select all that apply. PCA is A. u​sed to reduce the dimension of your data. B. v​isualize word vectors C. m​ake predictions D. l​abel data",
-        "definition": "AB"
+        "term": "Please select all that apply. PCA is| used to reduce the dimension of your data;| visualize word vectors;| make predictions;| label data.",
+        "definition": "used to reduce the dimension of your data;|visualize word vectors;"
     }, {
-        "term": "P​lease select all that apply. Which is correct about PCA? A. Y​ou can think of an eigenvector as an uncorrelated feature for your data. B. T​he eigenvalues tell you the amount of information retained by each feature. C. I​f working with features in different scales, you do not have to mean normalize. D. C​omputing the covariance matrix is critical when performing PCA",
-        "definition": "ABD"
+        "term": "Please select all that apply. Which is correct about PCA?| You can think of an eigenvector as an uncorrelated feature for your data.| The eigenvalues tell you the amount of information retained by each feature.| If working with features in different scales, you do not have to mean normalize.| Computing the covariance matrix is critical when performing PCA",
+        "definition": "You can think of an eigenvector as an uncorrelated feature for your data.| The eigenvalues tell you the amount of information retained by each feature.|Computing the covariance matrix is critical when performing PCA"
     }, {
-        "term": "I​n which order do you perform the following operations when computing PCA? A. m​ean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. B. m​ean normalize, perform SVD, get Σ the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. C. get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, m​ean normalize. D. get Σ the covariance matrix, m​ean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.",
-        "definition": "A"
+        "term": "I​n which order do you perform the following operations when computing PCA? A. m​ean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. B. m​ean normalize, perform SVD, get Σ the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. C. get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, m​ean normalize. D. get Σ the covariance matrix, m​ean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your dataIn which order do you perform the following operations when computing PCA?| mean normalize, get the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.| mean normalize, perform SVD, get the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.| get the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, mean normalize.| get the covariance matrix, mean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.",
+        "definition": "mean normalize, get the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data."
     }, {
-        "term": "V​ector space models allow us to A. T​o represent words and documents as vectors. B. b​uild useful applications including and not limited to, information extraction, machine translation, and chatbots. C. c​reate representations that capture similar meaning. D. b​uild faster training algorithms",
-        "definition": "ABC"
+        "term": "Vector space models allow us to | To represent words and documents as vectors. | build useful applications including and not limited to, information extraction, machine translation, and chatbots. | create representations that capture similar meaning. | build faster training algorithms",
+        "definition": "To represent words and documents as vectors. | build useful applications including and not limited to, information extraction, machine translation, and chatbots. | create representations that capture similar meaning."
     }, {
-        "term": "A​ssume that your objective is to minimize the transformation of X as similar to Y as possible, what would you optimize to get R? (XR≈Y) A. M​inimize the distance between XR and Y B. Maximize the distance between XR and Y C. M​inimize the dot product between XR and Y D. Maximize the dot product between XR and Y",
-        "definition": "A"
+        "term": "Assume that your objective is to minimize the transformation of X as similar to Y as possible, what would you optimize to get R? ) | Minimize the distance between XR and Y | Maximize the distance between XR and Y | Minimize the dot product between XR and Y | Maximize the dot product between XR and Y",
+        "definition": "Minimize the distance between XR and Y"
     }, {
-        "term": "W​hen solving for R, which of the following is true? A. C​reate a forloop, inside the forloop: (initialize R, compute the gradient, update the loss B. C​reate a forloop, inside the forloop: (initialize R, update the loss, compute the gradient. C. Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss) D. Initialize R, compute the gradient, create a forloop, inside the forloop: (update the loss)",
-        "definition": "C"
+        "term": "When solving for , which of the following is true? | Create a forloop, inside the forloop: (initialize R, compute the gradient, update the loss | Create a forloop, inside the forloop: (initialize R, update the loss, compute the gradient. | Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss) | Initialize R, compute the gradient, create a forloop, inside the forloop: (update the loss)",
+        "definition": "Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss)"
     }, {
-        "term": "T​he Frobenius norm of A = (1, 3; 4, 5) is Enter answer here",
+        "term": "The Frobenius norm of A = is (Answer should be in 2 decimal places)",
         "definition": "7.14"
     }, {
-        "term": "A​ssume X∈R^m×n, R∈R^n×n, Y∈R^m×n which of the following is the gradient of ∥XR−Y∥_F^2? A. 2/m × X^T × (XR-Y) B. 2/m × X × (XR-Y) C. 2/m × (XR-Y) × X D. 2/m × (XR-Y) × X^T",
-        "definition": "A"
+        "term": "Assume which of the following is the gradient of ? | a | b | c | d",
+        "definition": "a"
     }, {
-        "term": "I​magine that you are visiting a city in the US. If you search for friends that are living in the US, would you be able to determine the 2 closest of ALL your friends around the world? A. Y​es, because I am already in the country and that implies that my closest friends are also going to be in the same country. B. N​o",
-        "definition": "B"
+        "term": "Imagine that you are visiting a city in the US. If you search for friends that are living in the US, would you be able to determine the 2 closest of ALL your friends around the world? | Yes, because I am already in the country and that implies that my closest friends are also going to be in the same country. | No",
+        "definition": "No"
     }, {
-        "term": "W​hat is the purpose of using a function to hash vectors into values? A. T​o speed up the time it takes when comparing similar vectors. B. T​o not have to spend time comparing vectors with other vectors that are completely different. C. T​o make the search for other similar vectors more accurate. D. It helps us create vectors.",
-        "definition": "AB"
+        "term": "What is the purpose of using a function to hash vectors into values? | To speed up the time it takes when comparing similar vectors. | To not have to spend time comparing vectors with other vectors that are completely different. | To make the search for other similar vectors more accurate. | It helps us create vectors.",
+        "definition": "To speed up the time it takes when comparing similar vectors. | To not have to spend time comparing vectors with other vectors that are completely different."
     }, {
-        "term": "Given the following vectors, determine the true statements. P: (1, 1) V_1: (1, 1) V_2: (2, 2) V_3: (−1, −1) A. P × V_1^T and P × V_2^T have the same sign. B. P × V_1^T and P × V_2^T are equal in magnitude. C. P × V_1^T and P × V_3^T have the same sign.",
-        "definition": "A"
+        "term": "Given the following vectors, determine the true statements. : : : : | and have the same sign. | and are equal in magnitude. | and have the same sign.",
+        "definition": "and have the same sign."
     }, {
-        "term": "W​e define H to be the number of planes and h_i to be 1 or 0 depending on the sign of the dot product with plane i. Which of the following is the equation used to calculate the hash for several planes. A. ∑_i^H 2^i × h_i B. ∑_i^H 2^i × h_i^i C. ∑_i^H 2i × h_i​ D. ∑_i^H 2^h_i × i",
-        "definition": "A"
+        "term": "We define H to be the number of planes and to be 1 or 0 depending on the sign of the dot product with plane i. Which of the following is the equation used to calculate the hash for several planes. | a | b | c | d",
+        "definition": "a"
     }, {
-        "term": "H​ow can you speed up the look up for similar documents. A. P​CA B. A​pproximate Nearest Neighbors C. K​-Means D. L​ocality sensitive hashing",
-        "definition": "BD"
+        "term": "How can you speed up the look up for similar documents. | PCA | Approximate Nearest Neighbors | K-Means | Locality sensitive hashing",
+        "definition": "Approximate Nearest Neighbors|Locality sensitive hashing"
     }, {
-        "term": "H​ash tables are useful because A. a​llow us to divide vector space to regions. B. s​peed up look up C. c​lassify with higher accuracy D. c​an always be reproduced",
-        "definition": "ABD"
+        "term": "Hash tables are useful because | allow us to divide vector space to regions. | speed up look up | classify with higher accuracy | can always be reproduced",
+        "definition": "allow us to divide vector space to regions.|speed up look up|can always be reproduced"
     }, {
-        "term": "The Transition matrix A defined in lecture allows you to: A. Compute the probability of going from a word to another word. B. Compute the probability of going from a part of speech tag to a word. C. Compute the probability of going from a part of speech tag to another part of speech tag. D. Compute the probability of going from a word to a part of speech tag.",
-        "definition": "C"
+        "term": "Quiz type: number, The minimum edit distance between the words deep and creepy is: | ",
+        "definition": "4"
+    },{
+        "term": "Quiz type: radio, Which of the following is a NOT VALID example of an edit string operation? | INSERT a letter: ‘aple’ --> ‘apple’ | DELETE a letter: ‘cloack’ --> ‘cloak’ | SWITCH a letter ‘Lusca’ --> ‘Lucas’ | REPLACE a letter ‘Crayom’ --> ‘Crayon’",
+        "definition": "SWITCH a letter ‘Lusca’ --> ‘Lucas’"
+    },
+    {
+        "term": "Quiz type: radio, Autocorrect is only appliable when dealing with misspelled words. | False | True",
+        "definition": "False"
+    },
+    {
+        "term": "Quiz type: radio, Given the corpus: “I am happy because I am doing quizzes.” Based on this tiny corpus, consider the following sentence: “I sm very good at solving quizzes.” Which of the following is true? | It is not possible to decide a correction for the misspelled word “sm”. | There is a unique correction for the misspelled word “sm”. | There is more than one possible candidate for a correction to the misspelled word “sm”. | The corpus is too tiny, so it is not possible to build a probabilistic model for autocorrection.",
+        "definition": "There is a unique correction for the misspelled word “sm”."
+    },
+    {
+        "term": "Quiz type: checkbox, About the probabilistic model defined in the lecture, select all that apply. | Words with the same probability in the corpus will be equally likely to be candidates for a possible word correction. | Replacing a character costs more than deleting a character. | If is the number of times a word appear in a corpus and is the corpus size, then the probability of the word in the corpus is . | The sentence “Happy birthday deer friends” would not have any word corrected in the model defined in the lecture.",
+        "definition": "Replacing a character costs more than deleting a character. | If is the number of times a word appear in a corpus and is the corpus size, then the probability of the word in the corpus is . | The sentence “Happy birthday deer friends” would not have any word corrected in the model defined in the lecture."
+    },
+    {
+        "term": "Quiz type: number, Suppose we build a distance matrix D for the following case: Source: Pie --> Target: Bye What is the value for D[3,2]? | ",
+        "definition": "5"
+    },
+    {
+        "term": "Quiz type: checkbox, About the Minimum edit distance algorithm, select all that apply. Let be the distance matrix, for two words of same size. The matrix size is . | if . | stores the highest value in the matrix. | a | The algorithm avoids usage of brute force by implementing a dynamic programming approach.",
+        "definition": "if .|The algorithm avoids usage of brute force by implementing a dynamic programming approach."
+    },
+    {
+        "term": "Quiz type: radio, About the minimum edit distance, which of the following statement is not true? | It is used to evaluate similarity between two strings. | It is used to check if a word is misspelled. | It counts the minimum number of edits to transform one string into another. | It is used to implement spelling correction, document similarity and machine translation.",
+        "definition": "It is used to check if a word is misspelled."
+    },
+    {
+        "term": "Quiz type: radio, The minimum edit distance calculation is more computationally intensive if we have a big corpus. | True | False",
+        "definition": "False"
+    },
+    {
+        "term": "Quiz type: number, Given the corpus “Autocorrect is a powerful tool and it is used on our computer.” The value for is: The answer should have two decimal places (rounding up, if necessary). For example: 0.88888 should be answered as 0.89. | ",
+        "definition": "0.17"
+    },
+    {
+        "term": "Quiz type: radio, The Transition matrix A defined in lecture allows you to: | Compute the probability of going from a part of speech tag to another part of speech tag.  | Compute the probability of going from a word to a part of speech tag.  | Compute the probability of going from a word to another word.  | Compute the probability of going from a part of speech tag to a word. ",
+        "definition": "Compute the probability of going from a part of speech tag to another part of speech tag."
+    },
+    {
+        "term": "Quiz type: radio, The Emission matrix B defined in lecture allows you to: | Compute the probability of going from a word to another word.  | Compute the probability of going from a part of speech tag to another part of speech tag.  | Compute the probability of going from a part of speech tag to a word.  | Compute the probability of going from a word to a part of speech tag. ",
+        "definition": "Compute the probability of going from a part of speech tag to a word."
+    },
+    {
+        "term": "Quiz type: radio, The column sum of the emission matrix has to be equal to 1.  | True. | False.",
+        "definition": "False."
+    },
+    {
+        "term": "Quiz type: radio, The row sum of the transition matrix has to be 1.  | False, it has to be the column sum. | True",
+        "definition": "True"
+    },
+    {
+        "term": "Quiz type: checkbox, Why is smoothing usually applied? Select all that apply. | Applying smoothing, for the majority of cases, allows us to decrease the probabilities in the transition and emission matrices and this allows us to have non zero probabilities.  | Applying smoothing is a bad idea and we should not use it.  | Applying smoothing, for the majority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities.  | Applying smoothing, for the minority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities. ",
+        "definition": "Applying smoothing, for the majority of cases, allows us to decrease the probabilities in the transition and emission matrices and this allows us to have non zero probabilities.|Applying smoothing, for the majority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities."
+    },
+    {
+        "term": "Quiz type: radio, Given the following D matrix, what would be the sequence of tags for the words on the right?  | t2,t3,t1,t3,t1  | t3,t4,t2,t3,t1  | t3,t4,t2,t2,t1  | t1,t3,t1,t2,t1 ",
+        "definition": "t2,t3,t1,t3,t1"
+    },
+    {
+        "term": "Quiz type: radio, Previously, we have been multiplying the raw probabilities, but in reality we take the log of those probabilities. Why might that be the case? | We take the log probabilities because probabilities are bounded between 0 and 1 and as a result, the numbers could be too small and will go towards 0.  | The log probabilities should not be used because they introduce noise to our original computed scores.  | The log probabilities help us with the inference as they bound the numbers between -1 and 1.  | Because the log probabilities force the numbers to be between 0 and 1 and hence, we want to take a probability.",
+        "definition": "We take the log probabilities because probabilities are bounded between 0 and 1 and as a result, the numbers could be too small and will go towards 0."
+    },
+    {
+        "term": "Quiz type: checkbox, Which of the following are useful for applications for parts of speech tagging? | Named Entity Recognition | Sentiment Analysis | Speech recognition | Coreference Resolution",
+        "definition": "Named Entity Recognition|Speech recognition|Coreference Resolution"
     }, {
-        "term": "The Emission matrix B defined in lecture allows you to: A. Compute the probability of going from a word to another word. B. Compute the probability of going from a part of speech tag to another part of speech tag. C. Compute the probability of going from a word to a part of speech tag. D. Compute the probability of going from a part of speech tag to a word.",
-        "definition": "D"
+        "term": "Quiz type: radio, Corpus: “In every place of great resort the monster was the fashion. They sang of it in the cafes, ridiculed it in the papers, and represented it on the stage. ” (Jules Verne, Twenty Thousand Leagues under the Sea) In the context of our corpus, what is the probability of word “papers” following the phrase “it in the”. | P(papers|it in the) = 0 | P(papers|it in the) =1 | P(papers|it in the) = 2/3 | P(papers|it in the) = 1/2",
+        "definition": "P(papers|it in the) = 1/2"
+    },
+    {
+        "term": "Quiz type: radio, Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 . P(Mary|likes) =0.2; P(likes|Mary) =0.3; P(cats|likes)=0.1; P(likes|cats)=0.4 Approximate the probability of the following sentence with bigrams: “Mary likes cats” | P(Mary likes cats) = 0.003 | P(Mary likes cats) = 0 | P(Mary likes cats) = 0.008 | P(Mary likes cats) =1",
+        "definition": "P(Mary likes cats) = 0.003"
+    },
+    {
+        "term": "Quiz type: radio, Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 P(Mary|<s>)=0.2; P(</s>|cats)=0.6 P(likes|Mary) =0.3; P(cats|likes)=0.1 Approximate the probability of the following sentence with bigrams: “<s> Mary likes cats </s>” | P(<s> Mary likes cats </s>) = 1 | P(<s> Mary likes cats </s>) = 0 | P(<s> Mary likes cats </s>) = 0.0036 | P(<s> Mary likes cats </s>) = 0.003",
+        "definition": "P(<s> Mary likes cats </s>) = 0.0036"
+    },
+    {
+        "term": "Quiz type: radio, Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Approximate the log probability of the following sentence with bigrams : “<s> Mary likes cats </s>” | log(P(<s> Mary likes cats </s>)) = -112 | log(P(<s> Mary likes cats </s>)) = 2000 | log(P(<s> Mary likes cats </s>)) = 113 | log(P(<s> Mary likes cats </s>)) = -113",
+        "definition": "log(P(<s> Mary likes cats </s>)) = -113"
+    },
+    {
+        "term": "Quiz type: radio, Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Assuming our test set is W=“<s> Mary likes cats </s>”, what is the model’s perplexity. | log PP(W) = -113 | log PP(W) = (-1/5)*(-113) | log PP(W) = (-1/4)*(-113) | log PP(W) = (-1/5)*113",
+        "definition": "log PP(W) = (-1/4)*(-113)"
+    },
+    {
+        "term": "Quiz type: radio, Given the training corpus and minimum word frequency=2, how would the vocabulary for corpus preprocessed with <UNK> look like? “<s> I am happy I am learning </s> <s> I am happy I can study </s>” | V = (I,am,happy,I,am) | V = (I,am,happy,learning,can,study,<UNK>) | V = (I,am,happy,learning,can,study) | V = (I,am,happy)",
+        "definition": "V = (I,am,happy)"
+    },
+    {
+        "term": "Quiz type: radio, Corpus: “I am happy I am learning” In the context of our corpus, what is the estimated probability of word “can” following the word “I” using the bigram model and add-k-smoothing where k=3. | P(can|I) = 0 | P(can|I) =1 | P(can|I) = 3/(2+3*4) | P(can|I) = 3/(3*4)",
+        "definition": "P(can|I) = 3/(2+3*4)"
+    },
+    {
+        "term": "Quiz type: checkbox, Which of the following are applications of n-gram language models? | Speech recognitions | Auto-complete | Auto-correct | Augmentative communication | Sentiment Analysis",
+        "definition": "Speech recognitions|Auto-complete|Auto-correct|Augmentative communication"
+    },
+    {
+        "term": "Quiz type: radio, The higher the perplexity score the more our corpus will make sense. | True | False",
+        "definition": "False"
+    },
+    {
+        "term": "Quiz type: radio, The perplexity score increases as we increase the number of <UNK> tokens. | True. | False.",
+        "definition": "False."
     }, {
-        "term": "The column sum of the emission matrix has to be equal to 1. A. False. B. True.",
-        "definition": "A"
-    }, {
-        "term": "The row sum of the transition matrix has to be 1. A. True B. False, it has to be the column sum.",
-        "definition": "A"
-    }, {
-        "term": "Why is smoothing usually applied? Select all that apply. A. Applying smoothing, for the majority of cases, allows us to decrease the probabilities in the transition and emission matrices and this allows us to have non zero probabilities. B. Applying smoothing is a bad idea and we should not use it. C. Applying smoothing, for the minority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities. D. Applying smoothing, for the majority of cases, allows us to increase the probabilities in the transition and emission matrices and this allows us to have non zero probabilities.",
-        "definition": "AC"
-    }, {
-        "term": "Given the following D matrix, what would be the sequence of tags for the words on the right? A. t_2, t_3, t_1, t_3, t_1 B. t_3, t_4, t_2, t_2, t_1 C. t_1, t_3, t_1, t_2, t_1 D. t_3, t_4, t_2, t_3, t_1",
-        "definition": "A"
-    }, {
-        "term": "Previously, we have been multiplying the raw probabilities, but in reality we take the log of those probabilities. Why might that be the case? A. The log probabilities help us with the inference as they bound the numbers between -1 and 1. B. Because the log probabilities force the numbers to be between 0 and 1 and hence, we want to take a probability. C. We take the log probabilities because probabilities are bounded between 0 and 1 and as a result, the numbers could be too small and will go towards 0. D. The log probabilities should not be used because they introduce noise to our original computed scores.",
-        "definition": "C"
-    }, {
-        "term": "Which of the following are useful for applications for parts of speech tagging? A. Named Entity Recognition B. Coreference Resolution C. Sentiment Analysis D. Speech recognition",
-        "definition": "ABD"
-    }, {
-        "term": "Corpus: \"In every place of great resort the monster was the fashion. They sang of it in the cafes, ridiculed it in the papers, and represented it on the stage. \" (Jules Verne, Twenty Thousand Leagues under the Sea) In the context of our corpus, what is the probability of word \"papers\" following the phrase \"it in the\". A. P(papers|it in the) = 0 B. P(papers|it in the) =1 C. P(papers|it in the) = 2/3 D. P(papers|it in the) = 1/2",
-        "definition": "D"
-    }, {
-        "term": "Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 . P(Mary|likes) =0.2; P(likes|Mary) =0.3; P(cats|likes)=0.1; P(likes|cats)=0.4 Approximate the probability of the following sentence with bigrams: \"Mary likes cats\" A. P(Mary likes cats) =1 B. P(Mary likes cats) = 0 C. P(Mary likes cats) = 0.008 D. P(Mary likes cats) = 0.003",
-        "definition": "D"
-    }, {
-        "term": "Given these conditional probabilities P(Mary)=0.1; P(likes)=0.2; P(cats)=0.3 P(Mary|<s>)=0.2; P(</s>|cats)=0.6 P(likes|Mary) =0.3; P(cats|likes)=0.1 Approximate the probability of the following sentence with bigrams: \"<s> Mary likes cats </s>\" A. P(<s> Mary likes cats </s>) = 1 B. P(<s> Mary likes cats </s>) = 0.0036 C. P(<s> Mary likes cats </s>) = 0 D. P(<s> Mary likes cats </s>) = 0.003",
-        "definition": "B"
-    }, {
-        "term": "Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Approximate the log probability of the following sentence with bigrams : \"<s> Mary likes cats </s>\" A. log(P(<s> Mary likes cats </s>)) = 2000 B. log(P(<s> Mary likes cats </s>)) = 113 C. log(P(<s> Mary likes cats </s>)) = -112 D. log(P(<s> Mary likes cats </s>)) = -113",
-        "definition": "D"
-    }, {
-        "term": "Given the logarithm of these conditional probabilities: log(P(Mary|<s>))=-2; log(P(</s>|cats))=-1 log(P(likes|Mary)) =-10; log(P(cats|likes))=-100 Assuming our test set is W=\"<s> Mary likes cats </s>\", what is the model's perplexity. A. log PP(W) = -113 B. log PP(W) = (-1/5)*(-113) C. log PP(W) = (-1/4)*(-113) D. log PP(W) = (-1/5)*113",
-        "definition": "C"
-    }, {
-        "term": "Given the training corpus and minimum word frequency=2, how would the vocabulary for corpus preprocessed with <UNK> look like? \"<s> I am happy I am learning </s> <s> I am happy I can study </s>\" A. V = (I,am,happy,learning,can,study) B. V = (I,am,happy,learning,can,study,<UNK>) C. V = (I,am,happy,I,am) D. V = (I,am,happy)",
-        "definition": "D"
-    }, {
-        "term": "Corpus: \"I am happy I am learning\" In the context of our corpus, what is the estimated probability of word \"can\" following the word \"I\" using the bigram model and add-k-smoothing where k=3. A. P(can|I) = 0 B. P(can|I) =1 C. P(can|I) = 3/(2+3*4) D. P(can|I) = 3/(3*4)",
-        "definition": "C"
-    }, {
-        "term": "Which of the following are applications of n-gram language models? A. Speech recognitions B. Auto-complete C. Auto-correct D. Augmentative communication E. Sentiment Analysis",
-        "definition": "ABCD"
-    }, {
-        "term": "The higher the perplexity score the more our corpus will make sense. A. True B. False",
-        "definition": "B"
-    }, {
-        "term": "The perplexity score increases as we increase the number of <UNK> tokens. A. False. B. True.",
-        "definition": "B"
-    }, {
-        "term": "Which one of the following word representations is most likely to correspond to a word embedding representation in a general-purpose vocabulary? In other words, which one is most likely to capture meaning and important information about the words? A. car -> 2 caravan -> 3 B. car -> (0.1 1) caravan -> (-0.1 0.9) C. car -> (0 1 0 0) caravan -> (0 0 1 0) D. car -> (1 0.1) caravan -> (-1 -0.9)",
-        "definition": "B"
-    }, {
-        "term": "Which one of the following statements is correct? A. To learn word embeddings you only need a vocabulary and an embedding method. B. Learning word embeddings using a machine learning model is unsupervised learning as the input data set is not labelled. C. The objective of a machine learning model that learns word embeddings is to predict word embeddings. D. The meaning of the words, as carried by the word embeddings, depends on the embedding approach.",
-        "definition": "D"
-    }, {
-        "term": "Which one of the following statements is false? A. word2vec-based models cannot create word embeddings for words they did not see in the corpus they were trained on. B. ELMo may have different word embeddings for the word \"stable\" depending on the context. C. You need to train a deep neural network to learn word embeddings. D. You can use a pre-trained BERT model to learn word embeddings on a previously unseen corpus.",
-        "definition": "C"
-    }, {
-        "term": "Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context half-size of 3, what are the context words of the center word \"inaction\"? A. \"being inaction human\" B. \"being or through allow a human\" C. \"being or through inaction allow a human\" D. \"through inaction allow\"",
-        "definition": "B"
-    }, {
-        "term": "Which one of the following statements is false? A. Given the corpus \"I think therefore I am\", the word \"think\" could be represented by the one-hot vector (1 0 0 0). B. Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context size of 3, the context words of the center word \"inaction\" are: \"a\", \"allow\", \"being\", \"human\", \"or\", and \"through\" C. The continuous bag-of-words model learns to predict context words given a center word. D. Given the corpus \"I think therefore I am\", the word \"you\" cannot be represented.",
-        "definition": "C"
-    }, {
-        "term": "You are designing a neural network for a CBOW model that will be trained on a corpus with a vocabulary of 8000 words. If you want it to learn 400-dimensional word embedding vectors, what should be the sizes of the input, hidden, and output layers? A. 8000 (input layer), 8000 (hidden layer), 400 (output layer) B. 400 (input layer), 400 (hidden layer), 8000 (output layer) C. 8000 (input layer), 400 (hidden layer), 8000 (output layer) D. 8000 (input layer), 400 (hidden layer), 400 (output layer)",
-        "definition": "C"
-    }, {
-        "term": "If you are designing a neural network for a CBOW model that will be trained on a corpus of 8000 words, and if you want it to learn 400-dimensional word embedding vectors, what should be the size of W1, the weighting matrix between the input layer and hidden layer, if it is fed training examples in batches of 16 examples represented by a 8000 row by 16 column matrix? Hint: if X is the input matrix, H the matrix for the hidden layer, and B1 the bias matrix, then H = ReLU(W1X + B1). A. 400 rows by 8000 columns B. 16 rows by 8000 columns C. 400 rows by 16 columns D. 8000 rows by 16 columns",
-        "definition": "A"
-    }, {
-        "term": "Given the input vector x below, a trained continuous bag-of-words model outputs the vector ŷ below. What is the word predicted by the model? A. Think B. am C. Therefore D. I",
-        "definition": "C"
-    }, {
-        "term": "The following weighting matrix W_1 has been learned after training a CBOW model. You are also given word-to-row mapping for the input column vectors. ​What is the word embedding vector for \"ring\"? A. [-1.9; -1.18; 2.61; -1.7; -4.36; -4.54] B. [-2.39; -1.3; -1.7; 1.75] C. [4.56; -2.94; 2.61; -1.16] D. [0; 0; 1; 0; 0; 0]",
-        "definition": "C"
-    }, {
-        "term": "Select all that are correct. A. You can perform intrinsic evaluation by using a clustering algorithm to group similar word embedding vectors, and determining if the clusters capture related words. B. Extrinsic evaluation evaluates actual usefulness of embeddings, is time consuming and is more difficult to trouble shoot. C. To evaluate word embeddings with intrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings. D. To evaluate word embeddings with extrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings.",
-        "definition": "ABD"
+        "term": "Quiz type: radio, Which one of the following word representations is most likely to correspond to a word embedding representation in a general-purpose vocabulary? In other words, which one is most likely to capture meaning and important information about the words? | car -> 2\n\ncaravan -> 3 | car -> (0.1 1)\n\ncaravan -> (-0.1 0.9) | car -> (0 1 0 0)\n\ncaravan -> (0 0 1 0) | car -> (1 0.1)\n\ncaravan -> (-1 -0.9)",
+        "definition": "car -> (0.1 1)\n\ncaravan -> (-0.1 0.9)"
+    },
+    {
+        "term": "Quiz type: radio, Which one of the following statements is correct? | To learn word embeddings you only need a vocabulary and an embedding method. | Learning word embeddings using a machine learning model is unsupervised learning as the input data set is not labelled. | The objective of a machine learning model that learns word embeddings is to predict word embeddings. | The meaning of the words, as carried by the word embeddings, depends on the embedding approach.",
+        "definition": "The meaning of the words, as carried by the word embeddings, depends on the embedding approach."
+    },
+    {
+        "term": "Quiz type: radio, Which one of the following statements is false? | You need to train a deep neural network to learn word embeddings. | word2vec-based models cannot create word embeddings for words they did not see in the corpus they were trained on. | ELMo may have different word embeddings for the word \"stable\" depending on the context. | You can use a pre-trained BERT model to learn word embeddings on a previously unseen corpus.",
+        "definition": "You need to train a deep neural network to learn word embeddings."
+    },
+    {
+        "term": "Quiz type: radio, Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context half-size of 3, what are the context words of the center word \"inaction\"? | “being inaction human” | “being or through allow a human” | “being or through inaction allow a human” | “through inaction allow”",
+        "definition": "“being or through allow a human”"
+    },
+    {
+        "term": "Quiz type: radio, Which one of the following statements is false? | Given the corpus \"I think therefore I am\", the word \"think\" could be represented by the one-hot vector (1 0 0 0). | Consider the corpus \"A robot may not injure a human being or, through inaction, allow a human being to come to harm.\" and assume you are preparing data to train a CBOW model. Ignoring punctuation, for a context size of 3, the context words of the center word \"inaction\" are: \"a\", \"allow\", \"being\", \"human\", \"or\", and \"through\" | The continuous bag-of-words model learns to predict context words given a center word. | Given the corpus \"I think therefore I am\", the word \"you\" cannot be represented.",
+        "definition": "The continuous bag-of-words model learns to predict context words given a center word."
+    },
+    {
+        "term": "Quiz type: radio, You are designing a neural network for a CBOW model that will be trained on a corpus with a vocabulary of 8000 words. If you want it to learn 400-dimensional word embedding vectors, what should be the sizes of the input, hidden, and output layers? | 8000 (input layer), 8000 (hidden layer), 400 (output layer) | 400 (input layer), 400 (hidden layer), 8000 (output layer) | 8000 (input layer), 400 (hidden layer), 8000 (output layer) | 8000 (input layer), 400 (hidden layer), 400 (output layer)",
+        "definition": "8000 (input layer), 400 (hidden layer), 8000 (output layer)"
+    },
+    {
+        "term": "Quiz type: radio, If you are designing a neural network for a CBOW model that will be trained on a corpus of 8000 words, and if you want it to learn 400-dimensional word embedding vectors, what should be the size of W1, the weighting matrix between the input layer and hidden layer, if it is fed training examples in batches of 16 examples represented by a 8000 row by 16 column matrix? Hint: if X is the input matrix, H the matrix for the hidden layer, and B1 the bias matrix, then H = ReLU(W1X + B1). | 400 rows by 16 columns | 400 rows by 8000 columns | 16 rows by 8000 columns | 8000 rows by 16 columns",
+        "definition": "400 rows by 8000 columns"
+    },
+    {
+        "term": "Quiz type: radio, Given the input vector x below, a trained continuous bag-of-words model outputs the vector ŷ below. What is the word predicted by the model? | I | Think | Therefore | am",
+        "definition": "Therefore"
+    },
+    {
+        "term": "Quiz type: radio, The following weighting matrix W_1 has been learned after training a CBOW model. You are also given word-to-row mapping for the input column vectors. What is the word embedding vector for \"ring\"? | [-1.9; -1.18;  2.61; -1.7; -4.36; -4.54] | [-2.39; -1.3; -1.7; 1.75] | [4.56; -2.94; 2.61; -1.16] | [0; 0; 1; 0; 0; 0]",
+        "definition": "[4.56; -2.94; 2.61; -1.16]"
+    },
+    {
+        "term": "Quiz type: checkbox, Select all that are correct. | You can perform intrinsic evaluation by using a clustering algorithm to group similar word embedding vectors, and determining if the clusters capture related words.  | To evaluate word embeddings with intrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings. | Extrinsic evaluation evaluates actual usefulness of embeddings, is time consuming and is more difficult to trouble shoot.  | To evaluate word embeddings with extrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings.",
+        "definition": "You can perform intrinsic evaluation by using a clustering algorithm to group similar word embedding vectors, and determining if the clusters capture related words. |Extrinsic evaluation evaluates actual usefulness of embeddings, is time consuming and is more difficult to trouble shoot. |To evaluate word embeddings with extrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings."
     }, {
         "term": "How many layers does the following neural network have? A. 1 B. 2 C. 3 D. 4",
         "definition": "C"

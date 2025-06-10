@@ -230,7 +230,10 @@
   "NLP301c": {
     "status": "done",
     "related": [
-      "/classification-vector-spaces-in-nlp"
+      "/classification-vector-spaces-in-nlp",
+      "/  probabilistic-models-in-nlp",
+      "/sequence-models-in-nlp",
+      "/attention-models-in-nlp"
     ]
   },
   "NWC203c": {
