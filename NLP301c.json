@@ -314,38 +314,44 @@
         "term": "Quiz type: radio, What type of RNN structure would you use when implementing machine translation? | One to many | Many to one | Many to Many | One to one",
         "definition": "Many to Many"
     }, {
-        "term": "In the scan() function the variable cur_value corresponds to the hidden state in an RNN. A. True B. False",
-        "definition": "A"
-    }, {
-        "term": "Identify the correct order of the gates that information flows through in an LSTM unit. A. Input gate, forget gate, output gate. B. Forget gate, input gate, output gate. C. Output gate, forget gate, input gate. D. Forget gate, output gate, input gate",
-        "definition": "B"
-    }, {
-        "term": "Which are some applications of LSTMs? A. Music composition B. Image captioning C. Next character prediction D. Chatbots E. Speech recognition",
-        "definition": "ABCDE"
-    }, {
-        "term": "The tanh layer ensures the values in your network stay numerically stable, by squeezing all values between -1 and 1. This prevents any of the values from the current inputs from becoming so large that they make the other values insignificant. A. False B. True",
-        "definition": "B"
-    }, {
-        "term": "What type of architecture is a named entity recognition using? A. Many to many B. Many to one C. One to many",
-        "definition": "A"
-    }, {
-        "term": "Extract the named entities from the following sentence: Younes, a Moroccan artificial intelligence engineer, travelled to France for a conference. A. Younes, Moroccan, engineer. B. Younes, Moroccan, France. C. Younes, Moroccan, conference. D. Younes, Moroccan engineer, France.",
-        "definition": "B"
-    }, {
-        "term": "In a vectorized representation of your data, equal sequence length allows more efficient batch processing. A. False B. True.",
-        "definition": "B"
-    }, {
-        "term": "Which built-in Python method would you use to iterate over your test set during the evaluation step? Assuming you are using a data generator. A. next() B. slice() C. list() D. enumerate()",
-        "definition": "A"
-    }, {
-        "term": "Why is it important to mask padded tokens when computing the loss? A. We add the loss of the padded tokens independently. B. Padded tokens are not part of the data and are just used to help us keep the same sequence length for more efficient batch processing. We should not include their loss.",
-        "definition": "B"
-    }, {
-        "term": "In which of the following orders should we train an Named Entity Recognition with an LSTM? A. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Run the output through a dense layer Feed it into an LSTM unit Predict using a log softmax over K classes B. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Run the output through a dense layer Predict using a log softmax over K classes Feed it into an LSTM unit C. Create a tensor for each input and its corresponding number Put them in a batch => 64, 128, 256, 512 ... Feed it into an LSTM unit Run the output through a dense layer Predict using a log softmax over K classes",
-        "definition": "C"
-    }, {
-        "term": "LSTMS solve vanishing/exploding gradient problems when compared to basic RNNs. A. True B. False",
-        "definition": "A"
+        "term": "Quiz type: radio, Identify the correct order of the gates that information flows through in an LSTM unit. | Input gate, forget gate, output gate. | Forget gate, input gate, output gate. | Output gate, forget gate, input gate. | Forget gate, output gate, input gate",
+        "definition": "Forget gate, input gate, output gate."
+    },
+    {
+        "term": "Quiz type: checkbox, Which are some applications of LSTMs? | Speech recognition | Next character prediction | Image captioning  | Chatbots | Music composition",
+        "definition": "Speech recognition|Next character prediction|Image captioning|Chatbots|Music composition"
+    },
+    {
+        "term": "Quiz type: radio, The tanh layer ensures the values in your network stay numerically stable, by squeezing all values between -1 and 1. This prevents any of the values from the current inputs from becoming so large that they make the other values insignificant. | True | False",
+        "definition": "True"
+    },
+    {
+        "term": "Quiz type: radio, What type of architecture is a named entity recognition using? | Many to many | One to many | Many to one",
+        "definition": "Many to many"
+    },
+    {
+        "term": "Quiz type: radio, Extract the named entities from the following sentence: Younes, a Moroccan artificial intelligence engineer, travelled to France for a conference. | Younes, Moroccan, conference. | Younes, Moroccan, France. | Younes, Moroccan, engineer. | Younes, Moroccan engineer, France.",
+        "definition": "Younes, Moroccan, France."
+    },
+    {
+        "term": "Quiz type: radio, In a vectorized representation of your data, equal sequence length allows more efficient batch processing. | False | True.",
+        "definition": "True."
+    },
+    {
+        "term": "Quiz type: radio, Why is it important to mask padded tokens when computing the loss? | Padded tokens are not part of the data and are just used to help us keep the same sequence length for more efficient batch processing. We should not include their loss.  | We add the loss of the padded tokens independently. ",
+        "definition": "Padded tokens are not part of the data and are just used to help us keep the same sequence length for more efficient batch processing. We should not include their loss."
+    },
+    {
+        "term": "Quiz type: radio, In which of the following orders should we train an Named Entity Recognition with an LSTM? | Create a tensor for each input and its corresponding number \n\n Put them in a batch =>  64, 128, 256, 512 ...\n\nRun the output through a dense layer\n\nFeed it into an LSTM unit\n\nPredict using a log softmax over K classes | Create a tensor for each input and its corresponding number \n\n Put them in a batch =>  64, 128, 256, 512 ...\n\nRun the output through a dense layer\n\nPredict using a log softmax over K classes\n\nFeed it into an LSTM unit | Create a tensor for each input and its corresponding number \n\n Put them in a batch =>  64, 128, 256, 512 ...\n\nFeed it into an LSTM unit\n\nRun the output through a dense layer\n\nPredict using a log softmax over K classes",
+        "definition": "Create a tensor for each input and its corresponding number\n\n Put them in a batch => 64, 128, 256, 512 ...\n\nFeed it into an LSTM unit\n\nRun the output through a dense layer\n\nPredict using a log softmax over K classes"
+    },
+    {
+        "term": "Quiz type: radio, LSTMS solve vanishing/exploding gradient problems when compared to basic RNNs. | True | False",
+        "definition": "True"
+    },
+    {
+        "term": "Quiz type: checkbox, Which of the following are true about LSTMs and vanilla RNNs? | LSTMs are typically trained faster than vanilla RNNs. | LSTMs can better retain information from earlier parts of the sentence. | LSTMs suffer from vanishing gradients, but RNNs don't. | LSTMs suffer from exploding gradients, but RNNs don't. | A single LSTM cell is more complex than a single cell in vanilla RNN.",
+        "definition": "LSTMs can better retain information from earlier parts of the sentence.|A single LSTM cell is more complex than a single cell in vanilla RNN."
     }, {
         "term": "Classification allows you to identify similarity between two things while siamese networks allow you to categorize things. A. True B. False",
         "definition": "B"
