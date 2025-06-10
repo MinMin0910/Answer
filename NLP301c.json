@@ -279,8 +279,8 @@
         "definition": "Equal to your vocabulary times the dimension of the embedding"
     },
     {
-        "term": "Quiz type: radio, What would be the probability of a five word sequence using a penta-gram? | P(w5∣w4,w3,w2,w1)=count(w4,w3,w2,w1) count(w5,w4,w3,w2,w1) ​ | P(w5,w4,w3,w2,w1)=P(w1)×P(w2∣w1)×P(w3∣w1,w2)×P(w4∣w1,w2,w3)×P(w5∣w1,w2,w3,w4) | P(w5,w4,w3,w2,w1)=P(w1)×P(w2)×P(w3)×P(w4)×P(w5) | P(w5,w4,w3,w2,w1)=P(w5∣w4,w3,w2,w1)",
-        "definition": "P(w5,w4,w3,w2,w1)=P(w1)×P(w2∣w1)×P(w3∣w1,w2)×P(w4∣w1,w2,w3)×P(w5∣w1,w2,w3,w4))"
+        "term": "Quiz type: radio, What would be the probability of a five word sequence using a penta-gram? | a | b | c | d",
+        "definition": "b"
     },
     {
         "term": "Quiz type: radio, The number of parameters in an RNN is the same regardless of the input's length. | False | True.",
@@ -291,12 +291,12 @@
         "definition": "An RNN which inputs a sentence and determines the sentiment.|An RNN which inputs a conversation and determines the topic."
     },
     {
-        "term": "Quiz type: radio, What should be the size of matrix Wh , if h<t> had size 4x1 and x<t> 10x1? h<t>=g(Wh[h<t−1>,x<t>]+bh)  | 4x14 | 14x4 | 4x4 | 14x14",
+        "term": "Quiz type: radio, What should be the size of matrix , if had size 4x1 and 10x1? | 4x14 | 14x4 | 4x4 | 14x14",
         "definition": "4x14"
     },
     {
-        "term": "Quiz type: radio, In the next equation, why is there a division by the number of time steps but not one for the number of classification categories? J=− T 1 ​ ∑ t=1 T ​ ∑ j=1 K ​ yjlog y ^ ​ j <t> ​ | Because there is just one value in every vector y<t> different from zero. | Because the equation is wrong. | Because this equation is given for a single example. | Because for most classification tasks there are only two categories.",
-        "definition": "Because there is just one value in every vector y<t> different from zero."
+        "term": "Quiz type: radio, In the next equation, why is there a division by the number of time steps but not one for the number of classification categories? | Because there is just one value in every vector different from zero. | Because the equation is wrong. | Because this equation is given for a single example. | Because for most classification tasks there are only two categories.",
+        "definition": "Because this equation is given for a single example."
     },
     {
         "term": "Quiz type: radio, What problem, related to vanilla RNNs, do GRUs tackle? | Loss of relevant information for long sequences of words. | Overfitting | High computational time for training and prediction. | Restricted flow of information from the past to the present.",
