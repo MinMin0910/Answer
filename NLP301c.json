@@ -7,14 +7,14 @@
         "term": "Which of the following are examples of text preprocessing? A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLs D. Adding new words to make sure all the sentences make sense",
         "definition": "A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLsBC"
     }, {
-        "term": "The sigmoid function is defined as . Which of the following is true. | Large positive values of will make closer to 1 and large negative values of will make close to -1. | Large positive values of will make closer to 1 and large negative values of will make close to 0. | Small positive values of will make closer to 1 and large positive values of will make close to 0. | Small positive values of will make closer to 0 and large negative values of will make close to -1.",
-        "definition": "Large positive values of will make closer to 1 and large negative values of will make close to 0."
+        "term": "Quiz type: radio, The sigmoid function is defined as h(x(i),θ)=1+e−θTx(i) 1 ​. Which of the following is true. | Large positive values of θTx(i) will make h(x(i),θ) closer to 1 and large negative values of θTx(i) will make h(x(i),θ) close to -1. | Large positive values of θTx(i) will make h(x(i),θ) closer to 1 and large negative values of θTx(i) will make h(x(i),θ) close to 0. | Small positive values of θTx(i) will make h(x(i),θ) closer to 1 and large positive values of θTx(i) will make h(x(i),θ) close to 0. | Small positive values of θTx(i) will make h(x(i),θ) closer to 0 and large negative values of θTx(i) will make h(x(i),θ) close to -1.",
+        "definition": "Large positive values of θTx(i) will make h(x(i),θ) closer to 1 and large negative values of θTx(i) will make h(x(i),θ) close to 0."
     }, {
-        "term": "The cost function for logistic regression is defined as . Which of the following is true about the cost function above. Mark all the correct ones. |When , as goes close to 0, the cost function approaches . | When , as goes close to 0, the cost function approaches . | When , as goes close to 0, the cost function approaches . | When , as goes close to 0, the cost function approaches .",
-        "definition": "When , as goes close to 0, the cost function approaches . | When , as goes close to 0, the cost function approaches ."
+        "term": "Quiz type: checkbox, The cost function for logistic regression is defined as J(θ)=− m 1 ​ ∑ i=1 m ​ [y(i)logh(x(i),θ)+(1−y(i))log(1−h(x(i),θ))]. Which of the following is true about the cost function above. Mark all the correct ones. | When y(i)=1, as h(x(i),θ) goes close to 0, the cost function approaches ∞. | When y(i)=1, as h(x(i),θ) goes close to 0, the cost function approaches 0. | When y(i)=0, as h(x(i),θ) goes close to 0, the cost function approaches 0. | When y(i)=0, as h(x(i),θ) goes close to 0, the cost function approaches ∞.",
+        "definition": "When y(i)=1, as h(x(i),θ) goes close to 0, the cost function approaches ∞.|When y(i)=0, as h(x(i),θ) goes close to 0, the cost function approaches 0.."
     },
     {
-        "term": "For what value of in the sigmoid function does .",
+        "term": "For what value of θTx in the sigmoid function does h(x(i),θ)=0.5.",
         "definition": "0"
     },
     {
@@ -26,12 +26,12 @@
         "definition": "Initialize parameters, classify/predict, get gradient, update, get loss, repeat"
     },
     {
-        "term": "Assuming we got the classification correct, where for some specific example i. This means that . Which of the following has to hold:| Our prediction, for this specific training example is exactly equal to its corresponding label .| Our prediction, for this specific training example is less than ( ).| Our prediction, for this specific training example is less than .| Our prediction, for this specific training example is greater than .",
-        "definition": "Our prediction, for this specific training example is greater than ."
+        "term": "Quiz type: radio, Assuming we got the classification correct, where y(i)=1 for some specific example i. This means that h(x(i),θ)>0.5. Which of the following has to hold: | Our prediction, h(x(i),θ) for this specific training example is exactly equal to its corresponding label y(i). | Our prediction, h(x(i),θ) for this specific training example is less than (1−y(i)). | Our prediction, h(x(i),θ) for this specific training example is less than (1−h(x(i),θ)). | Our prediction, h(x(i),θ) for this specific training example is greater than (1−h(x(i),θ)).",
+        "definition": "Our prediction, h(x(i),θ) for this specific training example is greater than (1−h(x(i),θ))."
     },
     {
-        "term": "What is the purpose of gradient descent? Select all that apply.|Gradient descent allows us to learn the parameters in logistic regression as to minimize the loss function J.| Gradient descent allows us to learn the parameters in logistic regression as to maximize the loss function J.| Gradient descent, grad_theta allows us to update the parameters by computing | Gradient descent, grad_theta allows us to update the parameters by computing ",
-        "definition": "Gradient descent allows us to learn the parameters in logistic regression as to minimize the loss function J. | Gradient descent, grad_theta allows us to update the parameters by computing "
+        "term": "Quiz type: checkbox, What is the purpose of gradient descent? Select all that apply. | Gradient descent allows us to learn the parameters θ in logistic regression as to minimize the loss function J. | Gradient descent allows us to learn the parameters θ in logistic regression as to maximize the loss function J. | Gradient descent, grad_theta allows us to update the parameters θ by computing θ=θ−α∗grad_theta | Gradient descent, grad_theta allows us to update the parameters θ by computing θ=θ+α∗grad_theta",
+        "definition": "Gradient descent allows us to learn the parameters θ in logistic regression as to minimize the loss function J.|Gradient descent, grad_theta allows us to update the parameters θ by computing θ=θ−α∗grad_theta"
     },
     {
         "term": "What is a good metric that allows you to decide when to stop training/trying to get a good model? Select all that apply. | When your accuracy is good enough on the test set. | When your accuracy is good enough on the train set. | When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much). | When \n𝛼\nα\nalpha\n, your step size is neither too small nor too large.",
