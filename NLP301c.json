@@ -275,47 +275,44 @@
         "term": "Quiz type: checkbox, Select all that are correct. | You can perform intrinsic evaluation by using a clustering algorithm to group similar word embedding vectors, and determining if the clusters capture related words.  | To evaluate word embeddings with intrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings. | Extrinsic evaluation evaluates actual usefulness of embeddings, is time consuming and is more difficult to trouble shoot.  | To evaluate word embeddings with extrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings.",
         "definition": "You can perform intrinsic evaluation by using a clustering algorithm to group similar word embedding vectors, and determining if the clusters capture related words. |Extrinsic evaluation evaluates actual usefulness of embeddings, is time consuming and is more difficult to trouble shoot. |To evaluate word embeddings with extrinsic evaluation, you use the word embeddings to perform an external task, which is typically the real-world task that you initially needed the word embeddings for. Then, use the performance metric of this task as a proxy for the quality of the word embeddings."
     }, {
-        "term": "How many layers does the following neural network have? A. 1 B. 2 C. 3 D. 4",
-        "definition": "C"
-    }, {
-        "term": "Let us analyze the following class: What would be the output above? A. 12 B. Null C. 2 D. 14",
-        "definition": "D"
-    }, {
-        "term": "The ReLU layer, is an activation layer that typically follows a dense fully connected layer, and transforms all values between 0 and 1 before sending them on to the next layer. A. True B. False",
-        "definition": "B"
-    }, {
-        "term": "The ReLU layer is an activation layer that typically follows a dense fully connected layer, and transforms any negative values to 0 before sending them on to the next layer. A. False B. True",
-        "definition": "B"
-    }, {
-        "term": "For the embedding layer in your model, you'd have to learn a matrix of weights of what size? A. Equal to your vocabulary times the dimension of the number of layers B. Equal to your vocabulary times the dimension of the number of classes C. Equal to the dimension of the embedding times the first dimension of the matrix in the first layer. D. Equal to your vocabulary times the dimension of the embedding",
-        "definition": "D"
-    }, {
-        "term": "What would be the probability of a five word sequence using a penta-gram? A. P(w5∣w4,w3,w2,w1) = count(w5,w4,w3,w2,w1) / count(w4,w3,w2,w1) B. P(w5,w4,w3,w2,w1) = P(w1)×P(w2∣w1)×P(w3∣w1,w2)×P(w4∣w1,w2,w3)×P(w5∣w1,w2,w3,w4) C. P(w5,w4,w3,w2,w1) = P(w1)×P(w2)×P(w3)×P(w4)×P(w5) D. P(w5,w4,w3,w2,w1) = P(w5∣w4,w3,w2,w1)",
-        "definition": "B"
-    }, {
-        "term": "The number of parameters in an RNN is the same regardless of the input's length. A. False B. True.",
-        "definition": "B"
-    }, {
-        "term": "Select all the examples that correspond to a \"many to one\" architecture. A. An RNN which inputs a sentiment and generates a sentence. B. An RNN which inputs a sentence and determines the sentiment. C. An RNN which inputs a topic and generates a conversation about that topic. D. An RNN which inputs a conversation and determines the topic.",
-        "definition": "BD"
-    }, {
-        "term": "What should be the size of matrix Wh, if h<t> had size 4x1 and x<t> 10x1? h<t> = g(Wh[h<t−1>,x<t>]+bh) A. 4x14 B. 14x4 C. 4x4 D. 14x14",
-        "definition": "A"
-    }, {
-        "term": "In the next equation, why is there a division by the number of time steps but not one for the number of classification categories? J = −1/T ∑^T_t=1 ∑^K_j=1 yj<t> log ŷj<t> A. Because there is just one value in every vector y<t> different from zero. B. Because the equation is wrong. C. Because this equation is given for a single example. D. Because for most classification tasks there are only two categories.",
-        "definition": "A"
-    }, {
-        "term": "What problem, related to vanilla RNNs, do GRUs tackle? A. Loss of relevant information for long sequences of words. B. Overfitting C. High computational time for training and prediction. D. Restricted flow of information from the past to the present.",
-        "definition": "A"
-    }, {
-        "term": "Bidirectional RNNs are acyclic graphs, which means that the computations in one direction are independent from the ones in the other direction. A. True B. False",
-        "definition": "A"
-    }, {
-        "term": "Compared to Traditional Language models which of the following problems does an RNN help us with? A. Helps us solve memory issues. B. Helps us solve RAM issues. C. They require almost no knowledge to use when compared to the traditional n-gram model. D. They are much simpler to understand.",
-        "definition": "AB"
-    }, {
-        "term": "What type of RNN structure would you use when implementing machine translation? A. Many to one B. One to many C. One to one D. Many to Many",
-        "definition": "D"
+        "term": "Quiz type: radio, For the embedding layer in your model, you’d have to learn a matrix of weights of what size? | Equal to your vocabulary times the dimension of the number of classes | Equal to the dimension of the embedding times the first dimension of the matrix in the first layer. | Equal to your vocabulary times the dimension of the embedding | Equal to your vocabulary times the dimension of the number of layers",
+        "definition": "Equal to your vocabulary times the dimension of the embedding"
+    },
+    {
+        "term": "Quiz type: radio, What would be the probability of a five word sequence using a penta-gram? | P(w5∣w4,w3,w2,w1)=count(w4,w3,w2,w1) count(w5,w4,w3,w2,w1) ​ | P(w5,w4,w3,w2,w1)=P(w1)×P(w2∣w1)×P(w3∣w1,w2)×P(w4∣w1,w2,w3)×P(w5∣w1,w2,w3,w4) | P(w5,w4,w3,w2,w1)=P(w1)×P(w2)×P(w3)×P(w4)×P(w5) | P(w5,w4,w3,w2,w1)=P(w5∣w4,w3,w2,w1)",
+        "definition": "P(w5,w4,w3,w2,w1)=P(w1)×P(w2∣w1)×P(w3∣w1,w2)×P(w4∣w1,w2,w3)×P(w5∣w1,w2,w3,w4))"
+    },
+    {
+        "term": "Quiz type: radio, The number of parameters in an RNN is the same regardless of the input's length. | False | True.",
+        "definition": "True."
+    },
+    {
+        "term": "Quiz type: checkbox, Select all the examples that correspond to a “many to one” architecture. | An RNN which inputs a sentiment and generates a sentence. | An RNN which inputs a sentence and determines the sentiment. | An RNN which inputs a topic and generates a conversation about that topic. | An RNN which inputs a conversation and determines the topic.",
+        "definition": "An RNN which inputs a sentence and determines the sentiment.|An RNN which inputs a conversation and determines the topic."
+    },
+    {
+        "term": "Quiz type: radio, What should be the size of matrix Wh, if h<t> had size 4x1 and x<t> 10x1? h<t>=g(Wh[h<t−1>,x<t>]+bh)  | 4x14 | 14x4 | 4x4 | 14x14",
+        "definition": "4x14"
+    },
+    {
+        "term": "Quiz type: radio, In the next equation, why is there a division by the number of time steps but not one for the number of classification categories? J=− T 1 ​ ∑ t=1 T ​ ∑ j=1 K ​ yjlog y ^ ​ j <t> ​ | Because there is just one value in every vector y<t> different from zero. | Because the equation is wrong. | Because this equation is given for a single example. | Because for most classification tasks there are only two categories.",
+        "definition": "Because there is just one value in every vector y<t> different from zero."
+    },
+    {
+        "term": "Quiz type: radio, What problem, related to vanilla RNNs, do GRUs tackle? | Loss of relevant information for long sequences of words. | Overfitting | High computational time for training and prediction. | Restricted flow of information from the past to the present.",
+        "definition": "Loss of relevant information for long sequences of words."
+    },
+    {
+        "term": "Quiz type: radio, Bidirectional RNNs are acyclic graphs, which means that the computations in one direction are independent from the ones in the other direction. | True | False",
+        "definition": "True"
+    },
+    {
+        "term": "Quiz type: checkbox, Compared to Traditional Language models which of the following problems does an RNN help us with? | They are much simpler to understand. | They require almost no knowledge to use when compared to the traditional n-gram model. | Helps us solve memory issues. | Helps us solve RAM issues.",
+        "definition": "Helps us solve memory issues.|Helps us solve RAM issues."
+    },
+    {
+        "term": "Quiz type: radio, What type of RNN structure would you use when implementing machine translation? | One to many | Many to one | Many to Many | One to one",
+        "definition": "Many to Many"
     }, {
         "term": "In the scan() function the variable cur_value corresponds to the hidden state in an RNN. A. True B. False",
         "definition": "A"
