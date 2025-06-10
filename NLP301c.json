@@ -353,25 +353,43 @@
         "term": "Quiz type: checkbox, Which of the following are true about LSTMs and vanilla RNNs? | LSTMs are typically trained faster than vanilla RNNs. | LSTMs can better retain information from earlier parts of the sentence. | LSTMs suffer from vanishing gradients, but RNNs don't. | LSTMs suffer from exploding gradients, but RNNs don't. | A single LSTM cell is more complex than a single cell in vanilla RNN.",
         "definition": "LSTMs can better retain information from earlier parts of the sentence.|A single LSTM cell is more complex than a single cell in vanilla RNN."
     }, {
-        "term": "Classification allows you to identify similarity between two things while siamese networks allow you to categorize things. A. True B. False",
-        "definition": "B"
-    }, {
-        "term": "Do the two subnetworks in a siamese network share the same parameters? A. N​o B. Y​es",
-        "definition": "B"
-    }, {
-        "term": "When training a siamese network to identify duplicates, which pairs of questions from the following questions do you expect to have the highest cosine similarity ? Is learning NLP useful for me to get a job? (ANCHOR) What should I learn to get a job? (POSITIVE) Where is the job? (NEGATIVE) A. Anchor, Positive B. Anchor, Negative C. Negative, Positive",
-        "definition": "A"
-    }, {
-        "term": "In the triplet loss function below, will decreasing the hyperparameter alpha from 0.5 to 0.2 require more, or less, optimization during training ? diff = s(A,N) − s(A,P) L(A,P,N) = max(diff+α, 0) A. Less B. More.",
-        "definition": "A"
-    }, {
-        "term": "The orange square below corresponds to the similarity score of question duplicates? A. True B. False",
-        "definition": "B"
-    }, {
-        "term": "What is the closest negative in this set of numbers assuming a duplicate pair similarity of 0.6? [-0.9,-0.4,0.4, 0.8] A. -0.9 B. -0.4 C. 0.4 D. 0.8",
-        "definition": "C"
-    }, {
-        "term": "In one shot learning, is any retraining required when new classes are added? For example, a new bank customer's signature. A. Y​es B. N​o",
-        "definition": "B"
+        "term": "Quiz type: radio, Classification allows you to identify similarity between two things while siamese networks allow you to categorize things. | False | True",
+        "definition": "False"
+    },
+    {
+        "term": "Quiz type: radio, Do the two subnetworks in a siamese network share the same parameters? | Yes | No",
+        "definition": "Yes"
+    },
+    {
+        "term": "Quiz type: radio, When training a siamese network to identify duplicates, which pairs of questions from the following questions do you expect to have the highest cosine similarity ? Is learning NLP useful for me to get a job? (ANCHOR) What should I learn to get a job? (POSITIVE) Where is the job? (NEGATIVE) | Anchor, Positive | Anchor, Negative | Negative, Positive",
+        "definition": "Anchor, Positive"
+    },
+    {
+        "term": "Quiz type: radio, In the triplet loss function below, will decreasing the hyperparameter alpha from 0.5 to 0.2 require more, or less, optimization during training ? diff=s(A,N)−s(A,P) L(A,P,N)=max(diff+α,0) | Less | More.",
+        "definition": "Less"
+    },
+    {
+        "term": "Quiz type: radio, The orange square below corresponds to the similarity score of question duplicates? | True | False",
+        "definition": "False"
+    },
+    {
+        "term": "Quiz type: radio, What is the closest negative in this set of numbers assuming a duplicate pair similarity of 0.6? [-0.9,-0.4,0.4, 0.8] | -0.9 | -0.4 | 0.4 | 0.8",
+        "definition": "0.4"
+    },
+    {
+        "term": "Quiz type: radio, In one shot learning, is any retraining required when new classes are added? For example, a new bank customer's signature. | Yes | No",
+        "definition": "No"
+    },
+    {
+        "term": "Quiz type: radio, During training, you have to update the weights of each of the subnetworks independently. | False. | True.",
+        "definition": "False."
+    },
+    {
+        "term": "Quiz type: radio, The mean negative is defined as the closest off-diagonal value to the diagonal in each row (excluding the diagonal). | True | False",
+        "definition": "True"
+    },
+    {
+        "term": "Quiz type: radio, In what order are Siamese networks performed in lecture? | Convert each input into an array of numbers Feed arrays into your model Compare 𝒗1, 𝒗2 using cosine similarity Test against a threshold | Convert each input into an array of numbers Feed arrays into your model Run logistic regression classifier Classify by using the probability | Convert each input into an array of numbers Feed arrays into your model Run soft-max classifier for all classes Take the arg-max of the probabilities | Convert each input into an array of numbers Feed arrays into your model Compare 𝒗1, 𝒗2 using euclidean distance Test against a threshold",
+        "definition": "Convert each input into an array of numbers Feed arrays into your model Compare 𝒗1, 𝒗2 using cosine similarity Test against a threshold"
     }]
 }
