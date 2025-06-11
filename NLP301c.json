@@ -37,50 +37,67 @@
         "term": "What is a good metric that allows you to decide when to stop training/trying to get a good model? Select all that apply. | When your accuracy is good enough on the test set. | When your accuracy is good enough on the train set. | When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much). | When \n𝛼\nα\nalpha\n, your step size is neither too small nor too large.",
         "definition": "When your accuracy is good enough on the test set.|When you plot the cost versus (# of iterations) and you see that your the loss is converging (i.e. no longer changes as much)."
     }, {
-        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If you were to randomly pick a person from the room, what is the probability that the person is happy. | 1/2 | 1/4 | 3/4 | 0",
-        "definition": "1/2 "
-    }, {
-        "term": "Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | A.1/2 | B.1/4 | C.3/4 |  D.1 ",
-        "definition": " D.1 "
-    }, {
-        "term": "From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive | a | b | c | d  ",
-        "definition": " a "
-    }, {
-        "term": "Bayes rule is defined as | a | b | c | d",
-        "definition": "a"
-    }, {
-        "term": "Suppose that in your dataset, 25% of the positive tweets contain the word ‘happy’. You also know that a total of 13% of the tweets in your dataset contain the word 'happy', and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'. What is the probability that this tweet is positive? (Please, round your answer up to two decimal places. Remember that 0.578 = 0.58 and 0.572 = 0.57)",
+        "term": "Quiz type: radio, Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If you were to randomly pick a person from the room, what is the probability that the person is happy. | 1/2\n\nGemini\nSource FPT | 1/4 | 3/4 | 0",
+        "definition": "1/2"
+    },
+    {
+        "term": "Quiz type: radio, Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | 1/2 | 1/4 | 3/4 | 1",
+        "definition": "1/2"
+    },
+    {
+        "term": "Quiz type: radio, From the equations presented below, express the probability of a tweet being positive given that it contains the word happy in terms of the probability of a tweet containing the word happy given that it is positive P( Positive ∣\"happy\" )=P( \"happy\" ) P( Positive ∩ \"happy\" ) ​ P( \"happy\" ∣Positive )=P( Positive ) P( \"happy\" ∩ Positive ) ​ | P( Positive ∣\"happy\" )=P(\"happy\" ∣Positive )×P( \"happy\") P( Positive ) ​ | P( Positive ∣\"happy\" )=P( \"happy\" ∣Positive )×P( Positive ) P( \"happy\" ) ​ | P( Positive ⋂ \"happy\" )=P( \"happy\" ∣Positive )×P( \"happy\") P( Positive ) ​ | P( Positive ⋂ \"happy\" )=P( \"happy\" ∣Positive )×P( Positive ) P( \"happy\" ) ​",
+        "definition": " P( Positive ∣\"happy\" )=P(\"happy\" ∣Positive )×P( \"happy\") P( Positive ) ​"
+    },
+    {
+        "term": "Quiz type: radio, Bayes rule is defined as | P(X∣Y)=P(Y∣X)×P(Y) P(X) ​ | P(X∣Y)=P(Y∣X)×P(X) P(Y) ​ | P(X∣Y)=P(X∣Y)×P(Y) P(X) ​ | P(X∣Y)=P(Y∣X)×P(Y∣X) P(X) ​",
+        "definition": "P(X∣Y)=P(Y∣X)×P(Y) P(X) ​"
+    },
+    {
+        "term": "Quiz type: number, Suppose that in your dataset, 25% of the positive tweets contain the word 'happy'. You also know that a total of 13% of the tweets in your dataset contain the word 'happy', and that 40% of the total number of tweets are positive. You observe the tweet: ''happy to learn NLP'. What is the probability that this tweet is positive? (Please, round your answer up to two decimal places. Remember that 0.578 = 0.58 and 0.572 = 0.57) | ",
         "definition": "0.77"
+    },
+    {
+        "term": "Quiz type: checkbox, The log likelihood for a certain word wi is defined as: log( P(wi∣neg) P(wi∣pos) ​ ). | Positive numbers imply that the word is positive. | Positive numbers imply that the word is negative. | Negative numbers imply that the word is negative. | Negative numbers imply that the word is positive.",
+        "definition": "Positive numbers imply that the word is positive.|Negative numbers imply that the word is negative."
+    },
+    {
+        "term": "Quiz type: radio, The log likelihood mentioned in lecture, which is the log of the ratio between two probabilities is bounded between | -1 and 1 | −∞ and ∞ | 0 and ∞ | 0 and 1",
+        "definition": "−∞ and ∞"
+    },
+    {
+        "term": "Quiz type: radio, When implementing naive Bayes, in which order should the following steps be implemented. | Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))\n\nSource FPT\nGemini | Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) | Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))  | Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
+        "definition": "Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))"
+    },
+    {
+        "term": "Quiz type: radio, To test naive bayes model, which of the following are required? | Xval,Yval,λ,logprior | Xval,Yval,logprior | Xval,λ,logprior | Yval,λ,logprior",
+        "definition": "Xval,Yval,logprior"
+    },
+    {
+        "term": "Quiz type: radio, Which of the following is NOT an application of naive Bayes? | Sentiment Analysis | Author identification | Information retrieval | Word disambiguation | Numerical predictions",
+        "definition": "Numerical predictions"
     }, {
-        "term": "The log likelihood for a certain word is defined as: . | Positive numbers imply that the word is positive. | Positive numbers imply that the word is negative.| Negative numbers imply that the word is negative. | Negative numbers imply that the word is positive.",
-        "definition": "Positive numbers imply that the word is positive. | Negative numbers imply that the word is negative."
-    }, {
-        "term": "The log likelihood mentioned in lecture, which is the log of the ratio between two probabilities is bounded between | -1 and 1 |and| 0 and |0 and 1 | 1 point",
-        "definition": "and"
-    }, {
-        "term": "When implementing naive Bayes, in which order should the following steps be implemented. A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) B. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get λ(w) Get P(w | pos), P(w | neg) Compute logprior = log(P(pos) / P(neg)) C. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) D. Get or annotate a dataset with positive and negative tweets Compute freq(w, class) Preprocess the tweets: process_tweet(tweet) ➞ Compute logprior = log(P(pos) / P(neg) Get P(w | pos), P(w | neg) Get λ(w)",
-        "definition": "A. Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg))"
-    }, {
-        "term": "To test naive bayes model, which of the following are required? | a | b | c |d",
-        "definition": "a"
-    }, {
-        "term": "Which of the following is NOT an application of naive Bayes? A. Sentiment Analysis B. Author identification C. Information retrieval D. Word disambiguation E. Numerical predictions",
-        "definition": "E. Numerical predictions"
-    }, {
-        "term": "Given a corpus A, encoded as and corpus B encoded as , What is the euclidean distance between the two documents? | 5.91608 | 35 | 2.43 | None of the above",
+        "term": "Quiz type: radio, Given a corpus A, encoded as ⎝ ⎜ ⎛ ​ 1 2 3 ​ ⎠ ⎟ ⎞ ​ and corpus B encoded as ⎝ ⎜ ⎛ ​ 4 7 2 ​ ⎠ ⎟ ⎞ ​, What is the euclidean distance between the two documents? | 5.91608 | 35 | 2.43 | None of the above",
         "definition": "5.91608"
-    }, {
-        "term": "Given the previous problem, a user now came up with a corpus C defined as and you want to recommend a document that is similar to it. Would you recommend document A or document B? | Document A | Document B​",
+    },
+    {
+        "term": "Quiz type: radio, Given the previous problem, a user now came up with a corpus C defined as ⎝ ⎜ ⎛ ​ 3 1 4 ​ ⎠ ⎟ ⎞ ​ and you want to recommend a document that is similar to it. Would you recommend document A or document B? | Document A | Document B",
         "definition": "Document A"
-    }, {
-        "term": "Which of the following is true about euclidean distance? | When comparing similarity between two corpuses, it does not work well when the documents are of different sizes. | It is the norm of the difference between two vectors. | It is a method that makes use of the angle between two vectors | It is the norm squared of the difference between two vectors.",
-        "definition": "When comparing similarity between two corpuses, it does not work well when the documents are of different sizes. | It is the norm of the difference between two vectors."
-    }, {
-        "term": "What is the range of a cosine similarity score, namely s, in the case of information retrieval where the vectors are positive? | a | b | c | d",
-        "definition": "c"
-    }, {
-        "term": "The cosine similarity score of corpus A = and corpus B = is equal to ?| 0.08512565307587486| 0 | 1.251903 | -0.3418283",
+    },
+    {
+        "term": "Quiz type: checkbox, Which of the following is true about euclidean distance? | When comparing similarity between two corpuses, it does not work well when the documents are of different sizes. | It is the norm of the difference between two vectors. | It is a method that makes use of the angle between two vectors | It is the norm squared of the difference between two vectors.",
+        "definition": "When comparing similarity between two corpuses, it does not work well when the documents are of different sizes.|It is the norm of the difference between two vectors."
+    },
+    {
+        "term": "Quiz type: checkbox, What is the range of a cosine similarity score, namely s, in the case of information retrieval where the vectors are positive? | −1≤s≤1 | −∞≤s≤∞ | 0≤s≤1 | −1≤s≤0",
+        "definition": "0≤s≤1"
+    },
+    {
+        "term": "Quiz type: radio, The cosine similarity score of corpus A = ⎝ ⎜ ⎛ ​ 1 0 −1 ​ ⎠ ⎟ ⎞ ​ and corpus B = ⎝ ⎜ ⎛ ​ 2 8 1 ​ ⎠ ⎟ ⎞ ​ is equal to ? | 0.08512565307587486 | 0 | 1.251903 | -0.3418283",
         "definition": "0.08512565307587486"
+    },
+    {
+        "term": "Quiz type: radio, We will define the following vectors, USA = ( 5 6 ​ ), Washington = ( 10 5 ​ ), Turkey = ( 3 1 ​ ), Ankara = ( 9 1 ​ ), Russia = ( 5 5 ​ ), and Japan = ( 4 3 ​ ). Using only the following vectors, Ankara is the capital of what country? Please consider the cosine similarity score in your calculations. | Japan | Russia | Morocco | Turkey",
+        "definition": "Turkey"
     }, {
         "term": "We will define the following vectors, USA = , Washington = , Turkey = , Ankara = , Russia = , and Japan = . Using only the following vectors, Ankara is the capital of what country? Please consider the cosine similarity score in your calculations.| Japan| Russia| Morocco| Turkey",
         "definition": "Turkey"
@@ -91,8 +108,8 @@
         "term": "Please select all that apply. Which is correct about PCA?| You can think of an eigenvector as an uncorrelated feature for your data.| The eigenvalues tell you the amount of information retained by each feature.| If working with features in different scales, you do not have to mean normalize.| Computing the covariance matrix is critical when performing PCA",
         "definition": "You can think of an eigenvector as an uncorrelated feature for your data.| The eigenvalues tell you the amount of information retained by each feature.|Computing the covariance matrix is critical when performing PCA"
     }, {
-        "term": "I​n which order do you perform the following operations when computing PCA? A. m​ean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. B. m​ean normalize, perform SVD, get Σ the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. C. get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, m​ean normalize. D. get Σ the covariance matrix, m​ean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your dataIn which order do you perform the following operations when computing PCA?| mean normalize, get the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.| mean normalize, perform SVD, get the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.| get the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, mean normalize.| get the covariance matrix, mean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.",
-        "definition": "mean normalize, get the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data."
+        "term": "Quiz type: radio, In which order do you perform the following operations when computing PCA? | mean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. | mean normalize, perform SVD, get Σ the covariance matrix, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data. | get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data, mean normalize. | get Σ the covariance matrix, mean normalize, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data.",
+        "definition": "mean normalize, get Σ the covariance matrix, perform SVD, then dot product the data, namely X, with a subset of the columns of U to get the reconstruction of your data."
     }, {
         "term": "Vector space models allow us to | To represent words and documents as vectors. | build useful applications including and not limited to, information extraction, machine translation, and chatbots. | create representations that capture similar meaning. | build faster training algorithms",
         "definition": "To represent words and documents as vectors. | build useful applications including and not limited to, information extraction, machine translation, and chatbots. | create representations that capture similar meaning."
