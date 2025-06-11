@@ -93,7 +93,7 @@
     },
     {
         "term": "Quiz type: radio, The cosine similarity score of corpus A = ⎝ ⎜ ⎛ ​ 1 0 −1 ​ ⎠ ⎟ ⎞ ​ and corpus B = ⎝ ⎜ ⎛ ​ 2 8 1 ​ ⎠ ⎟ ⎞ ​ is equal to ? | 0.08512565307587486 | 0 | 1.251903 | -0.3418283",
-        "definition": "0.08512565307587486"
+        "definition": "b.08512565307587486"
     },
     {
         "term": "Quiz type: radio, We will define the following vectors, USA = ( 5 6 ​ ), Washington = ( 10 5 ​ ), Turkey = ( 3 1 ​ ), Ankara = ( 9 1 ​ ), Russia = ( 5 5 ​ ), and Japan = ( 4 3 ​ ). Using only the following vectors, Ankara is the capital of what country? Please consider the cosine similarity score in your calculations. | Japan | Russia | Morocco | Turkey",
@@ -114,29 +114,30 @@
         "term": "Vector space models allow us to | To represent words and documents as vectors. | build useful applications including and not limited to, information extraction, machine translation, and chatbots. | create representations that capture similar meaning. | build faster training algorithms",
         "definition": "To represent words and documents as vectors. | build useful applications including and not limited to, information extraction, machine translation, and chatbots. | create representations that capture similar meaning."
     }, {
-        "term": "Assume that your objective is to minimize the transformation of X as similar to Y as possible, what would you optimize to get R? ) | Minimize the distance between XR and Y | Maximize the distance between XR and Y | Minimize the dot product between XR and Y | Maximize the dot product between XR and Y",
+        "term": "Quiz type: radio, Assume that your objective is to minimize the transformation of X as similar to Y as possible, what would you optimize to get R? (XR≈Y) | Minimize the distance between XR and Y | Maximize the distance between XR and Y | Minimize the dot product between XR and Y | Maximize the dot product between XR and Y",
         "definition": "Minimize the distance between XR and Y"
     }, {
-        "term": "When solving for , which of the following is true? | Create a forloop, inside the forloop: (initialize R, compute the gradient, update the loss | Create a forloop, inside the forloop: (initialize R, update the loss, compute the gradient. | Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss) | Initialize R, compute the gradient, create a forloop, inside the forloop: (update the loss)",
+        "term": "Quiz type: radio, When solving for R, which of the following is true? | Create a forloop, inside the forloop: (initialize R, compute the gradient, update the loss | Create a forloop, inside the forloop: (initialize R, update the loss, compute the gradient. | Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss) | Initialize R, compute the gradient, create a forloop, inside the forloop: (update the loss)",
         "definition": "Initialize R, create a forloop, inside the forloop: (compute the gradient, update the loss)"
     }, {
-        "term": "The Frobenius norm of A = is (Answer should be in 2 decimal places)",
+        "term": "Quiz type: number, The Frobenius norm of A = ( 1 4 ​ 3 5 ​ ) is (Answer should be in 2 decimal places) | ",
         "definition": "7.14"
     }, {
-        "term": "Assume which of the following is the gradient of ? | a | b | c | d",
-        "definition": "a"
+        "term": "Quiz type: radio, Assume X∈R m×n ,R∈R n×n ,Y∈R m×n which of the following is the gradient of ∥XR−Y∥ F 2 ​? | m 2 ​ X T (XR−Y) | m 2 ​ X(XR−Y) | m 2 ​ (XR−Y)X | m 2 ​ (XR−Y)X T",
+        "definition": "m 2 ​ X T (XR−Y)"
     }, {
         "term": "Imagine that you are visiting a city in the US. If you search for friends that are living in the US, would you be able to determine the 2 closest of ALL your friends around the world? | Yes, because I am already in the country and that implies that my closest friends are also going to be in the same country. | No",
         "definition": "No"
     }, {
-        "term": "What is the purpose of using a function to hash vectors into values? | To speed up the time it takes when comparing similar vectors. | To not have to spend time comparing vectors with other vectors that are completely different. | To make the search for other similar vectors more accurate. | It helps us create vectors.",
-        "definition": "To speed up the time it takes when comparing similar vectors. | To not have to spend time comparing vectors with other vectors that are completely different."
+        "term": "Quiz type: checkbox, What is the purpose of using a function to hash vectors into values? | To speed up the time it takes when comparing similar vectors.  | To not have to spend time comparing vectors with other vectors that are completely different.  | To make the search for other similar vectors more accurate. | It helps us create vectors.",
+        "definition": "To speed up the time it takes when comparing similar vectors. |To not have to spend time comparing vectors with other vectors that are completely different. "
     }, {
-        "term": "Given the following vectors, determine the true statements. : : : : | and have the same sign. | and are equal in magnitude. | and have the same sign.",
-        "definition": "and have the same sign."
-    }, {
-        "term": "We define H to be the number of planes and to be 1 or 0 depending on the sign of the dot product with plane i. Which of the following is the equation used to calculate the hash for several planes. | a | b | c | d",
-        "definition": "a"
+        "term": "Quiz type: radio, Given the following vectors, determine the true statements. P: [ 1 1 ​ ] V 1 ​ :[ 1 1 ​ ] V 2 ​:[ 2 2 ​ ] V 3 ​ :[ −1 −1 ​ ] | PV 1 T ​ and PV 2 T ​ have the same sign. | PV 1 T ​ and PV 2 T ​ are equal in magnitude. | PV 1 T ​ and PV 3 T ​ have the same sign.",
+        "definition": "PV 1 T ​ and PV 2 T ​ have the same sign."
+    },
+    {
+        "term": "Quiz type: radio, We define H to be the number of planes and h i ​ to be 1 or 0 depending on the sign of the dot product with plane i. Which of the following is the equation used to calculate the hash for several planes. | ∑ i H ​ 2 i h i ​ | ∑ i H ​ 2 i h i i ​ | ∑ i H ​ 2ih i ​ | ∑ i H ​ 2 h i ​ i",
+        "definition": "∑ i H ​ 2 i h i ​"
     }, {
         "term": "How can you speed up the look up for similar documents. | PCA | Approximate Nearest Neighbors | K-Means | Locality sensitive hashing",
         "definition": "Approximate Nearest Neighbors|Locality sensitive hashing"
