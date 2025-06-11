@@ -41,7 +41,7 @@
         "definition": "1/2"
     },
     {
-        "term": "Quiz type: radio, Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | A.1/2 | B.1/4 | C.3/4 | D.1",
+        "term": "Quiz type: radio, Assume that there are 2 happy people and 2 unhappy people in a room. Concretely, persons A and B are happy and persons C and D are unhappy. If a friend showed you the part of the room where the two happy people are, what is the probability that you choose person B? | A.1/2 | B.1/4 | C.3/4 ",
         "definition": "A. 1/2"
     },
     {
@@ -69,8 +69,8 @@
         "definition": "Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Get P(w | pos), P(w | neg) Get λ(w) Compute logprior = log(P(pos) / P(neg)) Get or annotate a dataset with positive and negative tweets Get or annotate a dataset with positive and negative tweets Preprocess the tweets: process_tweet(tweet) ➞ Preprocess the tweets: process_tweet(tweet) ➞ Compute freq(w, class) Compute freq(w, class) Get P(w | pos), P(w | neg) Get P(w | pos), P(w | neg) Get λ(w) Get λ(w) Compute logprior = log(P(pos) / P(neg)) Compute logprior = log(P(pos) / P(neg))"
     },
     {
-        "term": "Quiz type: radio, To test naive bayes model, which of the following are required? | Xval,Yval,λ,logprior | Xval,Yval,logprior | Xval,λ,logprior | Yval,λ,logprior",
-        "definition": "Xval,Yval,λ,logprior"
+        "term": "Quiz type: radio, To test naive bayes model, which of the following are required? A.Xval,Yval,λ,logprior  B.Xval,Yval,logprior C.Xval,λ,logprior D.Yval,λ,logprior ",
+        "definition": "A.Xval,Yval,λ,logprior"
     },
     {
         "term": "Quiz type: radio, Which of the following is NOT an application of naive Bayes? | Sentiment Analysis | Author identification | Information retrieval | Word disambiguation | Numerical predictions",
