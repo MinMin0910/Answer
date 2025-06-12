@@ -7,14 +7,14 @@
         "term": "Which of the following are examples of text preprocessing? A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLs D. Adding new words to make sure all the sentences make sense",
         "definition": "A. Stemming, or the process of reducing a word to its word stem. B. Lowercasing, which is the process of removing changing all capital letter to lower case. C. Removing stopwords, punctuation, handles and URLsBC"
     }, {
-        "term": "Quiz type: radio, The sigmoid function is defined as h(x(i),θ)=1+e−θTx(i) 1 ​. Which of the following is true. | Large positive values of θTx(i) will make h(x(i),θ) closer to 1 and large negative values of θTx(i) will make h(x(i),θ) close to -1. | Large positive values of θTx(i) will make h(x(i),θ) closer to 1 and large negative values of θTx(i) will make h(x(i),θ) close to 0. | Small positive values of θTx(i) will make h(x(i),θ) closer to 1 and large positive values of θTx(i) will make h(x(i),θ) close to 0. | Small positive values of θTx(i) will make h(x(i),θ) closer to 0 and large negative values of θTx(i) will make h(x(i),θ) close to -1.",
-        "definition": "Large positive values of θTx(i) will make h(x(i),θ) closer to 1 and large negative values of θTx(i) will make h(x(i),θ) close to 0."
+        "term": "Quiz type: radio, The sigmoid function is defined as h(x (i) ,θ)= 1+e −θ T x (i) 1 ​. Which of the following is true. | Large positive values of θ T x (i) will make h(x (i) ,θ) closer to 1 and large negative values of θ T x (i) will make h(x (i) ,θ) close to -1. | Large positive values of θ T x (i) will make h(x (i) ,θ) closer to 1 and large negative values of θ T x (i) will make h(x (i) ,θ) close to 0. | Small positive values of θ T x (i) will make h(x (i) ,θ) closer to 1 and large positive values of θ T x (i) close to 0. | Small positive values of θ T x (i) will make h(x (i) ,θ) closer to 0 and large negative values of θ T x (i) will make h(x (i) ,θ) close to -1.",
+        "definition": "Large positive values of θ T x (i) will make h(x (i) ,θ) closer to 1 and large negative values of θ T x (i) will make h(x (i) ,θ) close to 0."
     }, {
-        "term": "Quiz type: checkbox, The cost function for logistic regression is defined as J(θ)=− m 1 ​ ∑ i=1 m ​ [y(i)logh(x(i),θ)+(1−y(i))log(1−h(x(i),θ))]. Which of the following is true about the cost function above. Mark all the correct ones. | When y(i)=1, as h(x(i),θ) goes close to 0, the cost function approaches ∞. | When y(i)=1, as h(x(i),θ) goes close to 0, the cost function approaches 0. | When y(i)=0, as h(x(i),θ) goes close to 0, the cost function approaches 0. | When y(i)=0, as h(x(i),θ) goes close to 0, the cost function approaches ∞.",
-        "definition": "When y(i)=1, as h(x(i),θ) goes close to 0, the cost function approaches ∞.|When y(i)=0, as h(x(i),θ) goes close to 0, the cost function approaches 0.."
+        "term": "Quiz type: checkbox, The cost function for logistic regression is defined as J(θ)=− m 1 ​ ∑ i=1 m ​ [y (i) logh(x (i) ,θ)+(1−y (i) )log(1−h(x (i) ,θ))]. Which of the following is true about the cost function above. Mark all the correct ones. | When y (i) =1, as h(x (i) ,θ) goes close to 0, the cost function approaches ∞. | When y (i) =1, as h(x (i) ,θ) goes close to 0, the cost function approaches 0. | When y (i) =0, as h(x (i) ,θ) goes close to 0, the cost function approaches 0. | When y (i) =0, as h(x (i) ,θ) goes close to 0, the cost function approaches ∞.",
+        "definition": "When y (i) =1, as h(x (i) ,θ) goes close to 0, the cost function approaches ∞.|When y (i) =0, as h(x (i) ,θ) goes close to 0, the cost function approaches 0."
     },
     {
-        "term": "For what value of θTx in the sigmoid function does h(x(i),θ)=0.5.",
+        "term": "Quiz type: number, For what value of θ T x in the sigmoid function does h(x (i) ,θ)=0.5. | ",
         "definition": "0"
     },
     {
@@ -26,8 +26,8 @@
         "definition": "Initialize parameters, classify/predict, get gradient, update, get loss, repeat"
     },
     {
-        "term": "Quiz type: radio, Assuming we got the classification correct, where y(i)=1 for some specific example i. This means that h(x(i),θ)>0.5. Which of the following has to hold: | Our prediction, h(x(i),θ) for this specific training example is exactly equal to its corresponding label y(i). | Our prediction, h(x(i),θ) for this specific training example is less than (1−y(i)). | Our prediction, h(x(i),θ) for this specific training example is less than (1−h(x(i),θ)). | Our prediction, h(x(i),θ) for this specific training example is greater than (1−h(x(i),θ)).",
-        "definition": "Our prediction, h(x(i),θ) for this specific training example is greater than (1−h(x(i),θ))."
+        "term": "Quiz type: radio, Assuming we got the classification correct, where y (i) =1 for some specific example i. This means that h(x (i) ,θ)>0.5. Which of the following has to hold: | Our prediction, h(x (i) ,θ) for this specific training example is exactly equal to its corresponding label y (i). | Our prediction, h(x (i) ,θ) for this specific training example is less than (1−y (i)). | Our prediction, h(x (i) ,θ) for this specific training example is less than (1−h(x (i) ,θ)). | Our prediction, h(x (i) ,θ) for this specific training example is greater than (1−h(x (i) ,θ)).",
+        "definition": "Our prediction, h(x (i) ,θ) for this specific training example is greater than (1−h(x (i) ,θ))."
     },
     {
         "term": "Quiz type: checkbox, What is the purpose of gradient descent? Select all that apply. | Gradient descent allows us to learn the parameters θ in logistic regression as to minimize the loss function J. | Gradient descent allows us to learn the parameters θ in logistic regression as to maximize the loss function J. | Gradient descent, grad_theta allows us to update the parameters θ by computing θ=θ−α∗grad_theta | Gradient descent, grad_theta allows us to update the parameters θ by computing θ=θ+α∗grad_theta",
@@ -93,7 +93,7 @@
     },
     {
         "term": "Quiz type: radio, The cosine similarity score of corpus A = ⎝ ⎜ ⎛ ​ 1 0 −1 ​ ⎠ ⎟ ⎞ ​ and corpus B = ⎝ ⎜ ⎛ ​ 2 8 1 ​ ⎠ ⎟ ⎞ ​ is equal to ? | 0.08512565307587486 | 0 | 1.251903 | -0.3418283",
-        "definition": "b.08512565307587486"
+        "definition": "b.b8512565307587486"
     },
     {
         "term": "Quiz type: radio, We will define the following vectors, USA = ( 5 6 ​ ), Washington = ( 10 5 ​ ), Turkey = ( 3 1 ​ ), Ankara = ( 9 1 ​ ), Russia = ( 5 5 ​ ), and Japan = ( 4 3 ​ ). Using only the following vectors, Ankara is the capital of what country? Please consider the cosine similarity score in your calculations. | Japan | Russia | Morocco | Turkey",
@@ -168,8 +168,8 @@
         "definition": "5"
     },
     {
-        "term": "Quiz type: checkbox, About the Minimum edit distance algorithm, select all that apply. Let be the distance matrix, for two words of same size. The matrix size is . | if . | stores the highest value in the matrix. | a | The algorithm avoids usage of brute force by implementing a dynamic programming approach.",
-        "definition": "if .|The algorithm avoids usage of brute force by implementing a dynamic programming approach."
+        "term": "Quiz type: checkbox, About the Minimum edit distance algorithm, select all that apply. Let D be the distance matrix, for two words of same size. The matrix size is n. | D[0,i]>D[0,j] if i>j. | D[n,n] stores the highest value in the matrix. | D[i,j]=min(D[i−1,j]+del_cost,D[i,j−1]+ins_cost,D[i−1,j−1]+rep_cost) | The algorithm avoids usage of brute force by implementing a dynamic programming approach.",
+        "definition": "D[0,i]>D[0,j] if i>j.|The algorithm avoids usage of brute force by implementing a dynamic programming approach."
     },
     {
         "term": "Quiz type: radio, About the minimum edit distance, which of the following statement is not true? | It is used to evaluate similarity between two strings. | It is used to check if a word is misspelled. | It counts the minimum number of edits to transform one string into another. | It is used to implement spelling correction, document similarity and machine translation.",
@@ -180,8 +180,7 @@
         "definition": "False"
     },
     {
-        "term": "Quiz type: number, Given the corpus “Autocorrect is a powerful tool and it is used on our computer.” The value for is: The answer should have two decimal places (rounding up, if necessary). For example: 0.88888 should be answered as 0.89. | ",
-        "definition": "0.17"
+        "term": "Quiz type: number, Given the corpus \"Autocorrect is a powerful tool and it is used on our computer.\" The value for P(is) is: The answer should have two decimal places (rounding up, if necessary). For example: 0.88888 should be answered as 0.89. | ",        "definition": "0.17"
     },
     {
         "term": "Quiz type: radio, The Transition matrix A defined in lecture allows you to: | Compute the probability of going from a part of speech tag to another part of speech tag.  | Compute the probability of going from a word to a part of speech tag.  | Compute the probability of going from a word to another word.  | Compute the probability of going from a part of speech tag to a word. ",
