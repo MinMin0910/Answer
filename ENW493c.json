@@ -252,6 +252,234 @@
 }, {
     "term": "Critical ethnography is researchers who are politically minded people who aim to use their research to speak against ___________. Critical ethnographers may research brands and their relationships with customers. Ethnographic research can offer an accurate understanding of consumer behaviour which helps with the modelling of branding as it is socially perceived by consumers. Criticality Inequality Similarity Assessment",
     "definition": "Inequality"
-}
+},
+    {
+        "term": "Which of the following statements about research are valid? A. Research has to be purely speculative, disconnected from practical concerns that would only be distractions. B. Research is only inspired by practical problems observed in the physical world. C. Research is only a hobby of talented individuals, who can afford investing their time and effort in it. D. Research may generate new knowledge. New knowledge may generate innovations that may favor progress of society. E. Research does not require other investments than salaries for researchers.",
+        "definition": "D. Research may generate new knowledge. New knowledge may generate innovations that may favor progress of society."
+    },
+    {
+        "term": "Which of the following statements about societal investments in research are valid? A. Research is a luxury. Investments are only justified in periods of economic growth. B. Society invests in research as a way to reduce unemployment. C. Research is a burden for taxpayers. Investments in research should only be made if achievement of practically useful results is guaranteed upfront. D. Investments are made because research can lead to useful innovations and progress of society. E. Society invests in research because it may generate new knowledge and knowledge is a human aspiration.",
+        "definition": "D. Investments are made because research can lead to useful innovations and progress of society. E. Society invests in research because it may generate new knowledge and knowledge is a human aspiration."
+    },
+    {
+        "term": "This question is about originality. When can a research result be defined original? A. The research result was not known before. B. The process through which the research lead to the result is novel. C. The research result can lead to a useful product. D. The research result was unexpected. E. The research result was very hard to achieve.",
+        "definition": "A. The research result was not known before. B. The process through which the research lead to the result is novel. D. The research result was unexpected."
+    },
+    {
+        "term": "This question is about significance. When can a research result be defined significant? A. The research result was unexpected. B. The research result may be used by other researchers to advance their research. C. The research result was not known before. D. The research that produced the result required a very substantial funding. E. The research result may lead to an improvement of a certain practical process, which reduces its cost and improves its performance.",
+        "definition": "B. The research result may be used by other researchers to advance their research. E. The research result may lead to an improvement of a certain practical process, which reduces its cost and improves its performance."
+    },
+    {
+        "term": "This question is about rigor. When can a research result be defined rigorous? A. The research result is properly formalized in mathematical form, and definitions and proofs are described clearly, correctly, and elegantly. B. The research result is a new artifact, whose design and validation are clearly and thoroughly described. C. The research result may be used by other researchers to advance their own research. D. The research result solves an open problem that has been studied for many years. E. The research result is of theoretical nature.",
+        "definition": "A. The research result is properly formalized in mathematical form, and definitions and proofs are described clearly, correctly, and elegantly. B. The research result is a new artifact, whose design and validation are clearly and thoroughly described."
+    },
+    {
+        "term": "Which of the following statements about the distinction between basic and applied research are acceptable? A. Basic research only requires \"paper and pencil\". No special equipment is needed. B. The spectrum between basic and applied research is continuous and a researcher may engage in both kinds of research during his/her work. C. Basic research inevitably leads to discoveries that can then be transformed by applied research into practical industrial innovations. D. Basic research is so fundamentally different from applied research that a researcher has to specialize and choose between the two upfront. E. Applied research is a less valuable (and prestigious) kind of research than basic research.",
+        "definition": "B. The spectrum between basic and applied research is continuous and a researcher may engage in both kinds of research during his/her work."
+    },
+    {
+        "term": "Which of the following statements about funded research programs are appropriate? A. A top-down research program only funds research that aims at an empirical evaluation in a practical setting of previously achieved theoretical results. B. A bottom-up research program allows researchers to select any possible research topic, and proposals are selected for funding only based on their originality, significance, and rigor. C. A top-down research program defines precisely the research topics that can be funded and should be addressed by applicants. D. A bottom-up research program only supports research that is motivated by current, practical needs of industry. E. A top-down research program gives researcher maximum freedom in selecting research topics.",
+        "definition": "B. A bottom-up research program allows researchers to select any possible research topic, and proposals are selected for funding only based on their originality, significance, and rigor. C. A top-down research program defines precisely the research topics that can be funded and should be addressed by applicants."
+    },
+    {
+        "term": "Tick one or more of the following statements, which properly describes the scientific method, originated in the 17th century by scientists like Galileo, Newton, and others. A. The method assures that a certain theory explaining a natural phenomenon is valid (i.e., it is an undisputable truth) after carefully chosen experiments confirm it. B. The method is purely theoretical, and does not require any experiments. C. The method consists of observing a natural phenomenon under study, postulating a theory that explains it, and devising carefully chosen experiments to confirm or disprove the theory. D. The method is based on validation of a theory by randomly generated experiments. E. The method requires explaining the natural phenomenon under study avoiding the use of mathematics.",
+        "definition": "C. The method consists of observing a natural phenomenon under study, postulating a theory that explains it, and devising carefully chosen experiments to confirm or disprove the theory."
+    },
+    {
+        "term": "What is a null hypothesis? Tick the correct answer. A. Hypothesis that further experiments disprove. B. An obviously wrong hypothesis that does not explain a certain phenomenon. C. No hypothesis made. D. Hypothesis made by inexperienced scientist. E. Hypothesis framed in a negative form, which researchers try to reject to confirm a theory.",
+        "definition": "E. Hypothesis framed in a negative form, which researchers try to reject to confirm a theory."
+    },
+    {
+        "term": "A scientific theory... (tick one) A. Is guaranteed to be unfalsifiable when it is published. B. Is valid until further findings disprove it. C. Is valid if a majority vote of researchers approves it. D. Must be stated as an absolute truth. It is guaranteed that it will never be falsified by further experiments. E. Must always be described as a set of mathematical formulae.",
+        "definition": "B. Is valid until further findings disprove it."
+    },
+    {
+        "term": "Deduction vs. induction. Tick the correct statements: A. Deductive inferences can be used to generate predictions from a given theory. B. Modus ponens is a typical deductive inference rule. C. In deductive inference, the consequences of true premises must be further validated by experiments before they can be accepted as a truth. D. In deductive inference, the consequences are guaranteed to be true if premises are true. E. Inductive inferences always lead to necessary conclusions.",
+        "definition": "A. Deductive inferences can be used to generate predictions from a given theory. B. Modus ponens is a typical deductive inference rule. D. In deductive inference, the consequences are guaranteed to be true if premises are true."
+    },
+    {
+        "term": "Consider the following statements: All beans in the bag are white These beans are from the bag These beans are white Which of the following statements about inferences are correct? A. The inference rule b ∧ c ⊢ a is an induction and leads to a non-necessary conclusion. B. The inference rule a ∧ b ⊢ c is a deduction and leads to a necessary conclusion. C. The inference rule b ∧ c ⊢ a is a deduction and leads to a necessary conclusion. D. The inference rule a ∧ c ⊢ b is an deduction and leads to a necessary conclusion. E. The inference rule a ∧ c ⊢ b is an induction and leads to a non-necessary conclusion.",
+        "definition": "B. The inference rule a ∧ b ⊢ c is a deduction and leads to a necessary conclusion."
+    },
+    {
+        "term": "Soundness vs. completeness of a theory of a certain phenomenon. Tick the correct statements. A. A theory for a given phenomenon is complete if all its predictions are possible manifestations of the phenomenon. B. A theory for a given phenomenon is complete if it predicts all the possible manifestations. C. A complete theory for a given phenomenon can predict impossible manifestations. D. Ideally, a theory should be both sound and complete. E. A theory for a given phenomenon is sound if all its predictions are possible manifestations of the phenomenon.",
+        "definition": "B. A theory for a given phenomenon is complete if it predicts all the possible manifestations. D. Ideally, a theory should be both sound and complete. E. A theory for a given phenomenon is sound if all its predictions are possible manifestations of the phenomenon."
+    },
+    {
+        "term": "Consider the following statements about precision and recall of an algorithm. Which are correct? A. Either precision or recall must be equal to one for an approximate algorithm to be acceptable. B. Precision is less than one for algorithms that compute false positives. C. If we are given two approximate algorithms for the same problem, they can they differ in precision and recall. D. Recall is less than one for algorithms that produce false negatives. E. Precision and recall are equal to one for algorithms computing exact solutions.",
+        "definition": "B. Precision is less than one for algorithms that compute false positives. C. If we are given two approximate algorithms for the same problem, they can they differ in precision and recall. D. Recall is less than one for algorithms that produce false negatives. E. Precision and recall are equal to one for algorithms computing exact solutions."
+    },
+    {
+        "term": "Consider the following statements about case studies in research. Tick the pertinent answers. A. A case study is never applied in research. It is only used as a didactic aid. B. A case study is a study of a legal action. C. A case study never requires threat analysis. D. Threat analysis should be applied to assess internal and external validity of the conclusions drawn from a case study. E. A case study may concern the use of a proposed new artifact or method in a given context to validate its usability in a practical setting.",
+        "definition": "D. Threat analysis should be applied to assess internal and external validity of the conclusions drawn from a case study. E. A case study may concern the use of a proposed new artifact or method in a given context to validate its usability in a practical setting."
+    },
+    {
+        "term": "Consider an algorithm that is supposed to find all possible occurrences in a text of person's names. We are aware of the difficulty of the problem, and we expect the algorithm to provide an approximate solution. In some cases, understanding whether a word represents a person's name may in fact require deep semantic understanding of the text. Being an approximation, the algorithm may provide false positives and false negatives. Which of the following statements are correct? A. The algorithm finds a name that is not a person's name. This is a false negative. B. The algorithm finds a name that is not a person's name. This is a false positive. C. The algorithm may both find a name that is not a person's name and may fail to find the occurrence of certain person's names. In this case the algorithm is simply an unacceptable approximation. D. The algorithm may find a name that is not a person's name and may fail to find the occurrence of certain person's names. In this case the algorithm can generate both false positives and false negatives. E. The algorithm does not find the occurrence of certain person's names. This is a false positive.",
+        "definition": "B. The algorithm finds a name that is not a person's name. This is a false positive. D. The algorithm may find a name that is not a person's name and may fail to find the occurrence of certain person's names. In this case the algorithm can generate both false positives and false negatives."
+    },
+    {
+        "term": "You are asked to review a survey paper. In which of the following dimensions you are not expecting the paper to be particularly strong? Tick one. A. Originality B. Significance C. Rigor",
+        "definition": "A. Originality"
+    },
+    {
+        "term": "You are asked to review a theoretical research paper. In which of the following quality dimensions you expect the paper to be particularly strong? Tick one. A. Rigor B. Significance C. Originality",
+        "definition": "A. Rigor"
+    },
+    {
+        "term": "The following statements are about journal and conference publication. Tick the ones that are valid: A. Journals are always more selective and prestigious venues than conferences. B. The publication process for conferences normally takes longer than for journals, and duration can be unpredictable. C. The publication process for journals normally takes longer than for conferences, and duration can be unpredictable. D. In certain scientific areas conferences and journals are equally selective and respected publication venues. E. Conference publication has no scientific value. It is only done as a social activity. This is true for all scientific areas.",
+        "definition": "C. The publication process for journals normally takes longer than for conferences, and duration can be unpredictable. D. In certain scientific areas conferences and journals are equally selective and respected publication venues."
+    },
+    {
+        "term": "The publication process relies on peer review. Which of the following statements are valid? Tick them. A. Peer review is a voluntary service activity done to support the research community. B. To reach better insights into a submitted paper, it is advisable that peer review is delegated to close colleagues of the authors, especially those who have been previous collaborators. C. The goal of peer review is to ensure that published results meet certain quality standards. D. The main goal of peer review is to ensure proper balance among different nationalities of contributors of accepted papers. E. To avoid bias, peer reviewers should not be experts in the field of the contribution.",
+        "definition": "A. Peer review is a voluntary service activity done to support the research community. C. The goal of peer review is to ensure that published results meet certain quality standards."
+    },
+    {
+        "term": "Which of the following are valid statements about peer review? Tick them. A. In a \"double blind\" review process not only the identity of the reviewers is undisclosed to the authors, but also the identity of the authors is hidden to the reviewers, to reduce bias. B. The typical situation is that the identity of reviewers is unknown to the author of a submitted paper. C. A \"double blind\" review process allows authors to submit two related papers to the same venue and have them reviewed by the same set of anonymous reviewers. D. The typical situation is that the author of a paper knows the identity of peer reviewers and interacts with them throughout the review process, if necessary. E. A \"double blind\" review process requires exactly two anonymous reviewers for each submitted paper.",
+        "definition": "A. In a \"double blind\" review process not only the identity of the reviewers is undisclosed to the authors, but also the identity of the authors is hidden to the reviewers, to reduce bias. B. The typical situation is that the identity of reviewers is unknown to the author of a submitted paper."
+    },
+    {
+        "term": "Which of the following are valid statements about publications? Tick them. A. Every published book is uniquely identified by its ISBN. B. Most professional societies publish journals and conference proceedings in their respective technical areas. C. A DOI allows unique access to digital objects, including papers and datasets. D. Publication has a legal purpose: it ensures 100% correctness of the reported results. E. The only possible form of publication is in printed form.",
+        "definition": "A. Every published book is uniquely identified by its ISBN. B. Most professional societies publish journals and conference proceedings in their respective technical areas. C. A DOI allows unique access to digital objects, including papers and datasets."
+    },
+    {
+        "term": "Which of the following statements about research artifacts are valid? Tick them. A. Research artifacts can be an essential complement to papers as a form of research diffusion. B. Making artifacts publicly available requires additional effort by researchers. As a benefit, their research may become more visible and their research impactful. C. Repeatability and replicability of research is supported by sharing artifacts. D. Peer review only applies to papers. Artifacts cannot be peer reviewed. E. Research artifacts, such as datasets, software tools, or simulations, only serve an ancillary purpose in the preparation of a paper and should be kept private. They have no use for others.",
+        "definition": "A. Research artifacts can be an essential complement to papers as a form of research diffusion. B. Making artifacts publicly available requires additional effort by researchers. As a benefit, their research may become more visible and their research impactful. C. Repeatability and replicability of research is supported by sharing artifacts."
+    },
+    {
+        "term": "Which of the following statements about Open Access are valid? Tick them. A. Open Access means that a research product is accessible on-line in digital form, only subject to a minimal access fee. B. Open Access means that a research product is accessible on-line in digital form, free of charge, and free of \"most\" copyright and licensing restrictions. C. In an Open Access scheme, authors can publish papers without undergoing any form of peer review. D. The notion of Open Access only applies to research papers and not to artifacts. E. No implementation of Open Access can charge a fee to a researcher to publish her product.",
+        "definition": "B. Open Access means that a research product is accessible on-line in digital form, free of charge, and free of \"most\" copyright and licensing restrictions."
+    },
+    {
+        "term": "Gold vs Green Open Access: which statements are correct? Tick them. A. Gold Open Access is a special label indicating the most downloaded papers from an online archive. B. A Green Open Access journal allows the author to publish a paper and share it with a selected set of people who must register to get access to it. C. A Green Open Access journal allows the author to publish a paper and then charge for accessing the related artifacts. D. Gold Open Access means that the author publishes his or her work on an Open Access journal, which makes the work immediately, publicly, and freely available to others. E. A Green Open Access journal allows the author to publish a paper and then self-archive a copy in a freely accessible institutional or specialist online archive (e.g., arXiv), or on the personal website.",
+        "definition": "D. Gold Open Access means that the author publishes his or her work on an Open Access journal, which makes the work immediately, publicly, and freely available to others. E. A Green Open Access journal allows the author to publish a paper and then self-archive a copy in a freely accessible institutional or specialist online archive (e.g., arXiv), or on the personal website."
+    },
+    {
+        "term": "How can we judge whether one is fit for research? Tick the pertinent answers. A. Interest in independent work. B. Interest in a job that will make one rich. C. Ability to think out of the box. D. Persistence in achieving results.",
+        "definition": "A. Interest in independent work. C. Ability to think out of the box. D. Persistence in achieving results."
+    },
+    {
+        "term": "Consider the following factors one may consider when choosing to enter a PhD program. Tick the three most important. A. Lively and competitive research environment. B. No checks on progress made by the department. C. Short distance from home. D. Presence of strong researchers in the areas in which you would like to work. E. Funding available for salary and travel.",
+        "definition": "A. Lively and competitive research environment. D. Presence of strong researchers in the areas in which you would like to work. E. Funding available for salary and travel."
+    },
+    {
+        "term": "This is a list of possible goals of a PhD student. Tick the three most important. A. Publish as many papers as possible. B. Work in complete isolation, to just focus on your own research. C. Find opportunities to get some teaching experience and/or student supervision. D. Make the software tool you develop as part of your research a visible and impactful artifact, downloaded by a large number of other researchers. E. Publish in top venues.",
+        "definition": "C. Find opportunities to get some teaching experience and/or student supervision. D. Make the software tool you develop as part of your research a visible and impactful artifact, downloaded by a large number of other researchers. E. Publish in top venues."
+    },
+    {
+        "term": "These are statements about networking as a PhD student. Tick the two most pertinent. A. You should only network for social events with the other PhD students inside your department. B. Networking is only a distraction from your main activity, which is doing research. C. By networking, you may become known to other, more experienced researchers who may help you in the future (e.g., write reference letters for you). D. Networking is only important when required by the funding agency supporting the research, as in the case of multi-site research programs. E. Networking allows you to establish possible research collaborations.",
+        "definition": "C. By networking, you may become known to other, more experienced researchers who may help you in the future (e.g., write reference letters for you). E. Networking allows you to establish possible research collaborations."
+    },
+    {
+        "term": "These are statements about research funding. Tick the three most pertinent. A. Research funding is only needed to support acquisition of expensive research equipment. B. Success in competitive research funding programs is an important achievement, which counts in a researcher's evaluation for hiring or promotion. C. Successful competition in research funding programs can be vital for a researcher's progress because in most cases their appointment does not include a research funding budget. D. Research is a purely intellectual activity. Funding may be needed only to cover a researcher's salary, if no other institution covers it. E. Research funding is highly competitive.",
+        "definition": "B. Success in competitive research funding programs is an important achievement, which counts in a researcher's evaluation for hiring or promotion. C. Successful competition in research funding programs can be vital for a researcher's progress because in most cases their appointment does not include a research funding budget. E. Research funding is highly competitive."
+    },
+    {
+        "term": "These are possible achievements of a junior researcher who is applying for a tenure-track position in a research-oriented academic environment. Tick the three most relevant for hiring. A. Advisor of Master students in research projects. B. Very prolific author of papers published in average-quality venues with high acceptance rate. C. Author of a very impactful paper, which describes a solution to an important open problem. D. Presenter of papers in average-quality conferences. E. Successful applicant in a very selective research funding program.",
+        "definition": "A. Advisor of Master students in research projects. C. Author of a very impactful paper, which describes a solution to an important open problem. E. Successful applicant in a very selective research funding program."
+    },
+    {
+        "term": "A junior researcher, after the PhD and a short period as a post-doc, applies for junior tenure-track position in an academic institution. Reference letters are asked to external experts. Tick the items in the following list which are expected to be in a reference letter. A. Comparison of scientific achievements of the candidate with top individuals in the same field with similar seniority. B. In the case where the expert is an editor of a journal and the candidate acted as a peer reviewer, comments on how accurate and helpful the reviews were. C. Comments on the applicant's presentation skills based on personal experience (e.g., having heard the candidate present in a conference or in a seminar). D. A justified opinion about the candidate's potential to become a research leader in his/her area. E. Comments on the applicant's personal life (e.g., family, hobbies, ...).",
+        "definition": "A. Comparison of scientific achievements of the candidate with top individuals in the same field with similar seniority. B. In the case where the expert is an editor of a journal and the candidate acted as a peer reviewer, comments on how accurate and helpful the reviews were. C. Comments on the applicant's presentation skills based on personal experience (e.g., having heard the candidate present in a conference or in a seminar). D. A justified opinion about the candidate's potential to become a research leader in his/her area."
+    },
+    {
+        "term": "Consider the case where a researcher applies for promotion from a non-permanent to a permanent academic position. The following statements refer to reference letters asked to external experts to support the promotion case. Tick the pertinent statements. A. Reference letters should only be asked to scientists who have worked directly with the candidate in the past. B. Reference letters should never comment on the candidate's performance as a peer reviewer. C. The applicant can suggest names of potential external reviewers and should select well known and respected scientists who are familiar with his work and who are likely to express a positive opinion. D. The applicant can suggest names of potential external reviewers and should select among scientists from other institutions who are not familiar with his work. E. Reference letter should contain an assessment of the candidate's proven skills as a supervisor and mentor of younger researchers.",
+        "definition": "C. The applicant can suggest names of potential external reviewers and should select well known and respected scientists who are familiar with his work and who are likely to express a positive opinion. E. Reference letter should contain an assessment of the candidate's proven skills as a supervisor and mentor of younger researchers."
+    },
+    {
+        "term": "Which of the following statements on paper citations are valid? Tick them. A. The number of citations received by a paper precisely measures impact of the research presented in a paper. If two papers have different numbers of citations, the one with a higher number has more scientific impact than the other. B. The previous statement is true if we exclude self-citations. C. The sole number of citations received by a paper does not offer any ground for judgement about its quality. D. The previous statement is true if we also assume that the two papers have been published in the same venue and in the same year. E. A paper which did not receive citations, or only received a few, ten years after publication is likely to have very low significance. This, however, has to be confirmed by further scrutiny.",
+        "definition": "C. The sole number of citations received by a paper does not offer any ground for judgement about its quality. E. A paper which did not receive citations, or only received a few, ten years after publication is likely to have very low significance. This, however, has to be confirmed by further scrutiny."
+    },
+    {
+        "term": "Which of the following statements on Impact Factor (IF) are valid? Tick them. A. IF cannot be applied to conferences. B. IF for a journal is a constant value. It does not change over time. C. IF is an objective and undisputable measure of the scientific reputation of a journal and should replace any subjective judgement of experts. If two journals have even slightly different IF values, a researcher should always try to publish in the one with higher IF. D. IF is an aggregate bibliometric indicator which is ultimately based the citations of papers published in a journal or conference. E. If two papers are published by journals with different IF, the paper published in the journal with higher IF has a higher quality.",
+        "definition": "D. IF is an aggregate bibliometric indicator which is ultimately based the citations of papers published in a journal or conference."
+    },
+    {
+        "term": "Which of the following statements on H-index are valid? Tick them. A. H-index for a researcher X is defined as the maximum value of h such that X has published h papers that have each been cited at least h times. B. H-index for a researcher X is defined as the average value h of citations received by all published papers by the researcher in the past ten years. C. H-index is an objective and undisputable measure of the scientific quality of researchers and should replace any subjective judgement of experts, especially when they are involved in hiring or promotion processes. If two candidates have different H-index values, the one with higher H-index should always be ranked higher. D. H-index for a researcher X is defined as the median value h of citations received by all published papers by the researcher in the past ten years. E. H-index is a bibliometric indicator that applies to researchers.",
+        "definition": "A. H-index for a researcher X is defined as the maximum value of h such that X has published h papers that have each been cited at least h times. E. H-index is a bibliometric indicator that applies to researchers."
+    },
+    {
+        "term": "Which of the following statements on quantitative evaluation via bibliometrics are valid? Tick them. A. Bibliometric indicators can be used to inform evaluation, but should never be a substitute for personal, detailed, and rigorous judgement by experts. B. A strength of bibliometrics is that all sources of bibliometric data (such as Google Scholar, ISI Web of Science, and Scopus) provide identical values for the same item (e.g., H-index). C. Bibliometric data are especially valuable for cross-sector comparisons. For example, to decide about allocation of funding among very different sectors (such as Mechanical Engineering or Biology) a reasonable choice might be to assess the average quality of researchers in the different sectors (e.g., averaging H-indexes) and allocate funding accordingly. D. Bibliometric indicators have no bias: they are objective, undisputable, and cannot be tweaked. E. Ultimately, bibliometric indicators are automatically computed numbers and may be used for automatic ranking. Despite minor pitfalls, they are always preferable to human judgement.",
+        "definition": "A. Bibliometric indicators can be used to inform evaluation, but should never be a substitute for personal, detailed, and rigorous judgement by experts."
+    },
+    {
+        "term": "Which of the following statements on ethics are correct? Tick them. A. Ethics is the philosophical study of wrong and right conduct, according to an ideal model. B. Ethics is the philosophical study of beauty and taste. C. A misconduct is a deviation from ethical principles. D. Ethical principles do not apply to scientific research. E. Misconducts can differ in severity.",
+        "definition": "A. Ethics is the philosophical study of wrong and right conduct, according to an ideal model. C. A misconduct is a deviation from ethical principles. E. Misconducts can differ in severity."
+    },
+    {
+        "term": "Which of the following statements on research misconduct are correct? Tick them. A. Reporting results of a made-up experiment that has never been done is a case of fabrication misconduct. B. A falsification misconduct may consist of designing experiments that try to falsify a theory. C. Fabrication is a research misconduct that refers to artifacts. It means that an artifact has defects and cannot be reused by other researchers. D. A submitted paper that reports fabricated data must be rejected. E. Manually tweaking some experimental results to make experiments look better is a case of falsification misconduct.",
+        "definition": "A. Reporting results of a made-up experiment that has never been done is a case of fabrication misconduct. D. A submitted paper that reports fabricated data must be rejected. E. Manually tweaking some experimental results to make experiments look better is a case of falsification misconduct."
+    },
+    {
+        "term": "Which of the following statements on plagiarism are correct? Tick them. A. Including figures from other papers can be done without giving credit. Copying figures is not a case of plagiarism. B. Including in a paper fragments of text from a paper by other authors, without giving credit, is an example of plagiarism. C. Plagiarism consists of not explicitly citing a highly related previously published paper. D. Whatever is found on electronic archives through Web browsing can be freely included in own papers without incurring in plagiarism. E. An author is allowed to copy text portions from a previous own paper into a new paper and is not required to cite the original paper. Because these texts are from the same author, this is not a case of plagiarism.",
+        "definition": "B. Including in a paper fragments of text from a paper by other authors, without giving credit, is an example of plagiarism."
+    },
+    {
+        "term": "Which of the following behaviors are clearly unethical? Tick them. A. One of your students helped you in implementing a simulation, whose results will appear in the experimental section of your paper. He is not listed as a co-author, but you decide to explicitly mention her in an acknowledgements section. B. A visiting researcher in your department gives a seminar on her on-going work and mentions a conjecture. She believes that a mathematical proof exists for it, but has not properly demonstrated it. You come out with a proof and submit a paper without citing her idea. C. One of your junior colleagues will soon be evaluated for promotion to a tenured position, and needs to strengthen his CV with more publications. To help him, you tell your PhD student who has done very good work to write a paper which includes also your colleague as a co-author, although he has not contributed. D. You review a paper in an area in which you are active and have already published. The paper under review has no specific relation with your earlier contributions; it just happens to be in the same general area. You strongly object to publication and ask for a major revision, requiring that the authors extensively cite your previous contributions in a \"related work\" section. E. To maximize probability of acceptance, you submit the same paper in parallel to two conferences.",
+        "definition": "B. A visiting researcher in your department gives a seminar on her on-going work and mentions a conjecture. She believes that a mathematical proof exists for it, but has not properly demonstrated it. You come out with a proof and submit a paper without citing her idea. C. One of your junior colleagues will soon be evaluated for promotion to a tenured position, and needs to strengthen his CV with more publications. To help him, you tell your PhD student who has done very good work to write a paper which includes also your colleague as a co-author, although he has not contributed. D. You review a paper in an area in which you are active and have already published. The paper under review has no specific relation with your earlier contributions; it just happens to be in the same general area. You strongly object to publication and ask for a major revision, requiring that the authors extensively cite your previous contributions in a \"related work\" section. E. To maximize probability of acceptance, you submit the same paper in parallel to two conferences."
+    },
+    {
+        "term": "A researcher is a member of a program committee which decides acceptance of papers submitted to a conference and one of her PhD student submits a paper. Can the researcher be one of the reviewers of the paper? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "A researcher is a member of a program committee which decides acceptance of papers submitted to a conference and one of her PhD student submits a paper. Can the researcher be present in the discussion about acceptance of the paper? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "A researcher is acting department chair. She is a member of a national committee which decides about funding. A member of her department submits a proposal. Can she participate in discussions that involve the proposal? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "A researcher 's promotion case is discussed in a department. Her partner in life is a senior member of the department. The two are not officially married. Should the senior member participate in the discussions and vote? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "Your department decides to recognize the best PhD thesis of the year with a special award. All members of the department vote their preferences. Should one be allowed to vote for the thesis of own students? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "You are asked to review a paper submitted for publication in a journal. Can you freely copy and circulate it to your students who are working on a project on the same topic? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "You submit a paper to conference which adopts a double-blind review process. Is your identity confidential information that the conference organizers cannot disclose to reviewers? A. Yes B. No",
+        "definition": "A. Yes"
+    },
+    {
+        "term": "You are a member of the program committee of a conference and participate in the discussions about acceptance of submitted papers. Later you chat with an author of an accepted paper. Can you disclose the names of the reviewers of the papers? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "You are a member of the program committee of a conference and participate in the discussions about acceptance of submitted papers. Later you chat with an author of a rejected paper. Can you disclose the names of the reviewers of the papers? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "You are a member of a panel in charge of selecting research projects for funding. A researcher who did not succeed in the competition contacts you, asking for advice on how to write a better proposal in the future. Can you pass a copy of a successful application for reference as a good example? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "You are asked to review a paper submitted for publication in a journal. The paper is an identical copy of a paper you previously reviewed for another journal. The paper was rejected for several serious concerns raised by the reviewers. Can your review, which recommends rejection, mention that the paper has been resubmitted with no change, completely ignoring the careful reviews received previously? A. Yes B. No",
+        "definition": "A. Yes"
+    },
+    {
+        "term": "You are asked to review a paper. Suppose you become aware of the identity of the other reviewers. Before you form your own opinion and write your review, you would like to contact the other reviewers asking their opinion about the paper, so that your review report can be in line with theirs. Is this an acceptable practice? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "You always say no to requests to review papers from journals with very low reputation and in all cases of predatory publishing. Is this an acceptable practice? A. Yes B. No",
+        "definition": "A. Yes"
+    },
+    {
+        "term": "You are a successful researcher, coordinating a group with several PhD students and post-docs, and coordinating three funded research projects. You submit for publication several papers a year. To maximize your research productivity, you decide that for a few years you will not accept to review any papers. Is this an acceptable practice? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "You have just completed your PhD and you receive a kind invitation from journal you never heard of before to become a member of their international editorial board. This is the first invitation you receive. Without any hesitation, you accept the invitation. Is this an acceptable practice? A. Yes B. No",
+        "definition": "B. No"
+    },
+    {
+        "term": "Human subjects can only be the subjects of research in life sciences and social sciences. A. Yes B. No",
+        "definition": "B. No"
+    }
   ]
 }
