@@ -524,8 +524,8 @@
     "term": "What is an annotated bibliography?   It is a list of articles related to your topic, and it summarizes and evaluates these. It is a list of articles by one author who is an expert on your topic. It is a list of articles that you plan to read for your research.",
     "definition": "It is a list of articles related to your topic, and it summarizes and evaluates these."
 }, {
-    "term": "  True or False? Most research assignments tell you the exact topic you should write about.  True False",
-    "definition": "False"
+      "term": "True or False?Most research assignments tell you the exact topic you should write about. | True | False",
+      "definition": "False"
 }, {
     "term": "  True or False? A thesis statement is optional in your research paper.  True False",
     "definition": "False"
